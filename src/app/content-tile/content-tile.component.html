@@ -1,0 +1,18 @@
+<!-- <div [id]="content.name" class="contentTile"> -->
+<div [ngStyle]="{'background-image': getUrl()}">
+<div id={{id}} class="contentTile">
+  <div class="intro">
+    <div class="text">
+      <h1> {{ content.title }} </h1>
+      <h2> {{ content.role }} </h2>
+      <p> {{ content.description }} </p>
+    </div>
+    <div *ngIf="content.buttons" style="display: flex;flex-flow: row wrap;">
+      <div *ngFor="let button of content.buttons" class="button" >
+        <div style="text-align:center;margin:auto;">{{ button }}</div> 
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>

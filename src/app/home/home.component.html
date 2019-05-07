@@ -1,0 +1,4 @@
+<app-welcome></app-welcome>
+<div *ngFor="let key of getKeys()" style="width:100%;">
+        <app-content-tile [content]= "content.get(key)" [id]="content.get(key).name"></app-content-tile>
+</div>

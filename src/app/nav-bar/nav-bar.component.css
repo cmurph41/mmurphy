@@ -1,0 +1,16 @@
+.navBar {
+    position: absolute;
+    right: 0px;
+    margin-top: 43px;
+}
+.navButton {
+    font-family: Futura, Arial, Helvetica, sans-serif;
+    color: #E53434;
+    margin-right: 33px;
+    cursor: pointer;
+    font-size: 20px;	
+    font-weight: bold;	
+    line-height: 25px;
+    height: 25px;	
+    width: 76px;
+}
