@@ -1,0 +1,23 @@
+[
+    {
+        "name": "my-welfare",
+        "title": "MyWelfare.ie",
+        "role": "UX Design",
+        "description": "MyWelfare is the online home for social welfare services in ireland. While the user base is so broad...",
+        "img": "../assets/MyWelfare.png",
+        "buttons": ["Learn more"],
+        "text-color": "#ffffff"
+    },    
+    {
+        "name": "hilliard-studio-method",
+        "title": "Hilliard Studio Method",
+        "role": "UI Design",
+        "description": "We went back to basics and found out from users what they needed and how...",
+        "img": "../assets/hilliardStudioMethod.png",
+        "buttons": ["Web", "Branding"],
+        "text-color": "#000000"
+
+
+    }
+
+]
