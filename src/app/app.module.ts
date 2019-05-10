@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContentTileComponent } from './content-tile/content-tile.component';
-
+import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 import { ContentService } from './content.service';
 
 @NgModule({
@@ -20,7 +20,8 @@ import { ContentService } from './content.service';
     HomeComponent,
     AboutComponent,
     NavBarComponent,
-    ContentTileComponent
+    ContentTileComponent,
+    ProjectSummaryComponent
   ],
   imports: [
     BrowserModule,

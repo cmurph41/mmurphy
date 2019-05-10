@@ -10,10 +10,10 @@ import { Observable, Subscription } from 'rxjs';
 export class ContentTileComponent implements OnInit, AfterViewInit {
 
   @Input()
-  private id;
+  id;
 
   @Input()
-  private content;
+  content;
 
   load = false;
 

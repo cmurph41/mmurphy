@@ -1,0 +1,8 @@
+.logo{
+    height: 68px;	width: 73px;
+    background: url("../assets/Identity10.png") no-repeat;
+    display: inline-block;
+}
+.logo:hover {
+    background: url("../assets/logo_3_red.png") no-repeat;
+}

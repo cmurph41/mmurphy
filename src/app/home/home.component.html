@@ -1,4 +1,30 @@
 <app-welcome></app-welcome>
-<div *ngFor="let key of getKeys()" style="width:100%;">
+<!-- <div *ngFor="let key of getKeys()" style="width:100%;">
         <app-content-tile [content]= "content.get(key)" [id]="content.get(key).name"></app-content-tile>
-</div>
+</div> -->
+<div class="my-welfare-tile">
+        <div class="phones"><img style=" max-width: 100%;height: auto; margin-left: 50px; margin-right: 50px;" src="../../assets/MyWelfare-phones2.png"  width= "878"></div>
+
+        <div>
+                <app-project-summary [content]= "content.get('my-welfare')"
+                [id]="content.get('my-welfare').name" ></app-project-summary>
+        </div>
+        <!-- 
+          <div id={{id}} class="contentTile">
+          <div class="intro">
+            <div class="text">
+              <h1> {{ content.title }} </h1>
+              <h2> {{ content.role }} </h2>
+              <p> {{ content.description }} </p>
+            </div>
+            <div *ngIf="content.buttons" style="display: flex;flex-flow: row wrap;">
+              <div *ngFor="let button of content.buttons" class="button" >
+                <div style="text-align:center;margin:auto;">{{ button }}</div> 
+                
+              </div>
+            </div>
+          </div>
+        </div> -->
+        </div>
+
+        
