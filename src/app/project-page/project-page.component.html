@@ -1,0 +1,37 @@
+<div *ngIf="loaded" style="font-family: Futura, Arial, Helvetica, sans-serif;">
+  <div class="title">{{content.intro.title}}</div>
+  <div class="subheader">{{content.intro.subheader}}</div>
+  <div class="paragraph">{{content.intro.paragraph}}</div>
+  <a href="{{content.intro.buttonLink}}" target="_blank" style="text-decoration: none;">
+    <app-button [buttonText]="content.intro.button"></app-button>
+  </a>
+
+  <div style="height:50px"></div>
+  <div style="display:flex;flex-direction: row">
+    <div class="subheader">{{content.section1.number}}</div>
+    <div style="display:flex;flex-direction:column">
+      <div class="title">{{content.section1.header}}</div>
+      <div class="paragraph">{{content.section1.paragraph}}</div>
+    </div>
+    <img src="{{content.section1.image}}">
+  </div>
+
+  <div style="height:50px"></div>
+  <div style="display:flex;flex-direction: row">
+    <img src="{{content.section2.image}}">
+    <div class="subheader">{{content.section2.number}}</div>
+    <div style="display:flex;flex-direction:column">
+      <div class="title">{{content.section2.header}}</div>
+      <div class="paragraph">{{content.section2.paragraph}}</div>
+    </div>
+    
+  </div>
+  <div style="height:50px"></div>
+  <div style="display:flex;flex-direction: column">
+    
+    <div class="subheader">{{content.section3.number}}</div>
+      <div class="title">{{content.section3.header}}</div>
+      <div class="paragraph">{{content.section3.paragraph}}</div>
+      <img src="{{content.section3.image}}">
+  </div>
+</div>

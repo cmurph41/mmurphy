@@ -1,0 +1,19 @@
+.paragraph{
+    color: #231F20;	
+    font-size: 24px;	
+    font-weight: 100;	
+    line-height: NaNpx;
+}
+.subheader{
+    color: #231F20;	
+    font-size: 48px;	
+    font-weight: 100;	
+    line-height: NaNpx;
+}
+
+.title {
+    color: #231F20;	
+    font-size: 48px;	
+    font-weight: bold;	
+    line-height: NaNpx;
+}

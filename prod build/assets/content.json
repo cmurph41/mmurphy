@@ -5,8 +5,34 @@
         "role": "UX Design",
         "description": "MyWelfare is the online home for social welfare services in ireland. While the user base is so broad...",
         "img": "../assets/MyWelfare.png",
-        "buttons": ["Learn more"],
-        "text-color": "#ffffff"
+        "button": "Learn more",
+        "textColor": "#ffffff",
+        "intro": {
+            "title": "MyWelfare",
+            "subheader": "The online home for social welfare services in Ireland.",
+            "paragraph": "Welfare services are used by every Irish citizen at some point in their lives. Because the user base is so broad and the frequency of use is diverse, any online platform would need to be accessible and easy to use by everyone. Users were finding the old MyWelfare platform difficult to use and were not able to find what they were looking for. In addition, it was not scalable for the addition of new services by the business.",
+            "button": "visit website",
+            "buttonLink": "https://www.w3schools.com"
+        },
+        "section1": {
+            "number": "01",
+            "header": "Information Architecture",
+            "paragraph": "We went back to basics, and found out from users what they needed and how they interpreted the services. We then redesigned the information structure of the site and re-ordered the content to be better understood by citizens. We tested the structure with users and iterated until they had no difficulty finding what they were looking for.",
+            "image": "../assets/MyWelfare-T12-1.png"
+        },
+        "section2": {
+            "number": "02",
+            "header": "A new CMS",
+            "paragraph": "We designed a flexible Information Architecture that can adapt as new services come online, which was built on a CMS to empower the business to be able to update and edit content in a way that remains consistent for the user.",
+            "image": "../assets/MyWelfare-T12-1.png"
+        },
+        "section3": {
+            "number": "03",
+            "header": "A new CMS",
+            "paragraph": "We designed a flexible Information Architecture that can adapt as new services come online, which was built on a CMS to empower the business to be able to update and edit content in a way that remains consistent for the user.",
+            "image": "../assets/MyWelfare-clay-desktop.png"
+        }
+
     },    
     {
         "name": "hilliard-studio-method",
@@ -14,7 +40,7 @@
         "role": "UI Design",
         "description": "We went back to basics and found out from users what they needed and how...",
         "img": "../assets/hilliardStudioMethod.png",
-        "buttons": ["Web", "Branding"],
+        "button": "Learn more",
         "text-color": "#000000"
 
 

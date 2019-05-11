@@ -20,8 +20,8 @@ export class ProjectSummaryComponent implements OnInit, AfterViewInit {
    }
 
   ngOnInit() { 
-    console.log("on init");
-
+    console.log("on init"); 
+    
   }
 
   ngAfterViewInit() { 

@@ -17,13 +17,15 @@ export class HomeComponent implements OnInit, OnChanges, OnDestroy {
   }
 
   ngOnInit() {
-    this.setUpSub();
+    this.setUpSub(); 
   }
 
   public setUpSub(){
     this.$content = this.contentService.getCurrentContentMapEmitter();
     this.contentSub = this.$content.subscribe( (data: any) => { 
+      
       this.content = data;
+      
     } );
   }
 

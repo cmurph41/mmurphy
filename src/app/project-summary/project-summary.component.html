@@ -5,11 +5,10 @@
       <h2> {{ content.role }} </h2>
       <p> {{ content.description }} </p>
     </div>
-    <div *ngIf="content.buttons" style="display: flex;flex-flow: row wrap;">
-      <div *ngFor="let button of content.buttons" class="button" >
-        <div style="text-align:center;margin:auto;">{{ button }}</div> 
-        
-      </div>
+    
+    <div routerLink="/project/{{id}}" *ngIf="content.button">
+          <app-button [buttonText]="content.button"></app-button>
     </div>
   </div>
 </div>
+

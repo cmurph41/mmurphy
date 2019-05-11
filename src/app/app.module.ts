@@ -12,6 +12,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ContentTileComponent } from './content-tile/content-tile.component';
 import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 import { ContentService } from './content.service';
+import { ProjectPageComponent } from './project-page/project-page.component';
+import { ButtonComponent } from './css-components/button/button.component';
+import { APP_INITIALIZER } from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import { ContentService } from './content.service';
     AboutComponent,
     NavBarComponent,
     ContentTileComponent,
-    ProjectSummaryComponent
+    ProjectSummaryComponent,
+    ProjectPageComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,13 @@ import { ContentService } from './content.service';
     HttpClientModule
   ],
   providers: [
-    ContentService
+    ContentService, 
+    {
+      provide: APP_INITIALIZER,
+      useFactory: (cs: ContentService) => function() { return cs.initContent()},
+      deps: [ContentService],
+      multi:true
+    }
   ],
   bootstrap: [AppComponent]
 })

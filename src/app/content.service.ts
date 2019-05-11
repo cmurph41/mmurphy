@@ -26,7 +26,7 @@ export class ContentService {
 
     this.initContent();
   }
-  public getCurrentContentMapEmitter() : Observable<any>{
+  public getCurrentContentMapEmitter() : Observable<any>{ 
     return this.$currentContentMap;
   }
 
@@ -56,6 +56,11 @@ export class ContentService {
       })
     } 
     
+  }
+  public getContentById (id) { 
+    let result = this.content.get(id);
+    return result;
+
   }
 
 }

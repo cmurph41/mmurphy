@@ -1,4 +1,4 @@
-<div class="navBar">
-  <span class="navButton" [routerLink]="'/projects'" (select)="resetContent()">Projects</span>
-  <span class="navButton" [routerLink]="'/about'" (select)="resetContent()">About</span>
+<div class="navBar" id="navBar"  #stickyMenu [class.sticky] = "sticky">
+  <span class="navButton" [routerLink]="'/home'">Home</span>
+  <span class="navButton" [routerLink]="'/about'">About</span>
 </div>
