@@ -1,0 +1,27 @@
+.navBar {
+    /* position: absolute; */
+    /* right: 0px; */
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navButton {
+    color: #E53434;
+    /* margin-right: 33px; */
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;	
+    line-height: 25px;
+    height: 25px;	
+    width: 56px;
+
+}
+
+/* .sticky{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+  } */

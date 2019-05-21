@@ -1,11 +1,48 @@
-<app-welcome></app-welcome>
-<div class="my-welfare-tile">
-  <div class="phones">
-    <img style=" max-width: 100%;height: auto; margin-left: 50px; margin-right: 50px;" src="../../assets/MyWelfare-phones2.png"
-      width="878">
-  </div>
-
-  <div>
-    <app-project-summary [content]="content.get('my-welfare')" [id]="content.get('my-welfare').name"></app-project-summary>
+<div style="">
+  <app-welcome></app-welcome>
+</div>
+<div style="height:60px;"></div>
+<div class="background-my-welfare-tile">
+  <div class="my-welfare-tile">
+    <img style="margin-top:-60px;" class="img" [src]="content.get('my-welfare').img">
+    <div style="display: flex;justify-content: flex-end;align-items:center;padding-left:56px;">
+      <app-project-summary [content]="content.get('my-welfare')" [id]="content.get('my-welfare').name"></app-project-summary>
+    </div>
   </div>
 </div>
+<div style="height:100px"></div>
+
+<div class="be-kind">
+  <div style="display: flex;flex-flow:row nowrap;">
+    <div style="display: flex;justify-content: flex-end;align-items:center;padding-right:56px;">
+      <app-project-summary [content]="content.get('be-kind')" [id]="content.get('be-kind').name"></app-project-summary>
+    </div>
+    <img class="img" [src]="content.get('be-kind').img">
+  </div>
+</div>
+<div style="height:100px"></div>
+
+<div class="my-welfare-creation-kit">
+  <div style="display: flex;flex-flow:row nowrap;transform: scaleY(-1);  ">
+    <img class="img" [src]="content.get('my-welfare-creation-kit').img">
+    <div style="display: flex;justify-content: flex-end;align-items:center;padding-left:56px;">
+      <app-project-summary [content]="content.get('my-welfare-creation-kit')" [id]="content.get('my-welfare-creation-kit').name"></app-project-summary>
+    </div>
+  </div>
+</div>
+<div style="height:100px"></div>
+<!--  -->
+<div style="height:120px;"></div>
+<div class="background-money-mgmt">
+<div class="money-mgmt"> 
+  <div style="display: flex;flex-flow:row nowrap">
+    <div style="display: flex;justify-content: flex-end;align-items:center;padding-right:56px;">
+      <app-project-summary [content]="content.get('money-management-tool')" [id]="content.get('money-management-tool').name"></app-project-summary>
+    </div>
+    <img style="margin-top:-120px;" class="img" [src]="content.get('money-management-tool').img">
+  </div>
+</div>
+</div>
+<!-- <div style="height:400px;width:400px;">
+  <app-pill></app-pill>
+</div> -->

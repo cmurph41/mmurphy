@@ -1,14 +1,12 @@
 <div id={{id}} class="contentTile">
-  <div class="intro">
-    <div class="text">
-      <h1> {{ content.title }} </h1>
-      <h2> {{ content.role }} </h2>
-      <p> {{ content.description }} </p>
+    <div class="text" [style.color]="content.textColor">
+      <h1 class="subheader"> {{ content.title }} </h1>
+      <h2 class="role"> {{ content.role | uppercase }} </h2>
+      <p class="summary"> {{ content.description }} </p>
     </div>
     
-    <div routerLink="/project/{{id}}" *ngIf="content.button">
+    <div style="display: inline-block;" routerLink="/project/{{id}}" *ngIf="content.button">
           <app-button [buttonText]="content.button"></app-button>
     </div>
-  </div>
 </div>
 

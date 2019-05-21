@@ -1,33 +1,28 @@
 .contentTile{
-    font-family: Futura, Arial, Helvetica, sans-serif;
-    height:188px;
-    width:339px;
-    margin-bottom: 95px;
-    margin-right:97px;
+    max-width:265px;
 }
-.intro{
-    width: 200px;
-    height:200px;
+.role{
+    font-size: 17px;	
+    font-weight: 300;
+    font-style: normal;
+    line-height: 22px;
+}
+
+.summary{
+    font-size: 18px;	
+    font-weight: 300;
+    font-style: normal;
     
 }
-.text{
-    color: white;
+.subheader{
+    font-size: 36px;	
+    font-weight: bold;
+    font-style: normal;
+    line-height: 46px;
 }
-
-.button{
-    background-color: #E53434;
-    border: none;
-    color: white;
-    display:flex;
-
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 16.5px;
-    height: 28px;
-    padding-right: 14px;
-    padding-left:14px;
-    padding-top:7px;
-    padding-bottom:7px;
-    margin: 10px;
-
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 25px;
 }

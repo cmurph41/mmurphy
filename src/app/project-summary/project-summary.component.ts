@@ -14,7 +14,7 @@ export class ProjectSummaryComponent implements OnInit, AfterViewInit {
   content;
 
   load = false;
-
+  
   constructor() { 
     
    }

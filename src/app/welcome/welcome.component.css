@@ -1,19 +1,31 @@
-.header{
-    font-family: Futura, Arial, Helvetica, sans-serif;
-    font-size: 36px;	
-    font-weight: bold;	
-    line-height: 46px;
-}
+
 .navText{	
     color: #E53434;	
     text-decoration: underline;
+    cursor: pointer;
 }
 
-.hi{
+
+.paragraph{
     color: #231F20;	
-    font-family: Futura, Arial, Helvetica, sans-serif;
-    font-size: 20px;	
-    font-weight: bold;	
+    font-size: 18px;	
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.subheader{
+    color: #231F20;	
+    font-size: 36px;	
+    font-weight: bold;
+    font-style: normal;
+    line-height: 46px;
+}
+.title {
+    color: #231F20;	
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
     line-height: 25px;
     margin-bottom:14px;
+
 }

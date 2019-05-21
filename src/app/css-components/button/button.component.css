@@ -1,20 +1,19 @@
 
 .button{
-    font-family: Futura, Arial, Helvetica, sans-serif;
-
+    height: 48px;	
+    width: 170px;	
+    border-radius: 28px;	
     background-color: #E53434;
-    border: none;
-    color: white;
-    display:flex;
 
-    text-decoration: none;
+    color: white;
+
     cursor: pointer;
-    border-radius: 16.5px;
-    height: 28px;
-    padding-right: 14px;
-    padding-left:14px;
-    padding-top:7px;
-    padding-bottom:7px;
-    text-align:center;
+    font-size: 14px;	
+    font-weight: bold;	
+    letter-spacing: 0.78px;	
+    line-height: 48px;	
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
 
 }

@@ -2,17 +2,17 @@
     {
         "name": "my-welfare",
         "title": "MyWelfare.ie",
-        "role": "UX Design",
-        "description": "MyWelfare is the online home for social welfare services in ireland. While the user base is so broad...",
-        "img": "../assets/MyWelfare.png",
+        "role": "UX/UI Design",
+        "description": "The online home for social welfare services in Ireland",
+        "img": "../assets/MyWelfare-iMac4.png",
         "button": "Learn more",
         "textColor": "#ffffff",
         "intro": {
             "title": "MyWelfare",
             "subheader": "The online home for social welfare services in Ireland.",
             "paragraph": "Welfare services are used by every Irish citizen at some point in their lives. Because the user base is so broad and the frequency of use is diverse, any online platform would need to be accessible and easy to use by everyone. Users were finding the old MyWelfare platform difficult to use and were not able to find what they were looking for. In addition, it was not scalable for the addition of new services by the business.",
-            "button": "visit website",
-            "buttonLink": "https://www.w3schools.com"
+            "button": "Visit website",
+            "buttonLink": "https://services.mywelfare.ie/"
         },
         "section1": {
             "number": "01",
@@ -32,8 +32,107 @@
             "paragraph": "We designed a flexible Information Architecture that can adapt as new services come online, which was built on a CMS to empower the business to be able to update and edit content in a way that remains consistent for the user.",
             "image": "../assets/MyWelfare-clay-desktop.png"
         }
-
-    },    
+    },
+    {
+        "name": "my-welfare-creation-kit",
+        "title": "MyWelfare CreationKit",
+        "role": "Design system",
+        "description": "The design system which builds consistency and efficiency into all MyWelfare services",
+        "img": "../assets/Group.png",
+        "button": "Learn more",
+        "textColor": "#231F20",
+        "intro": {
+            "title": "MyWelfare",
+            "subheader": "The design system which builds consistency and efficiency into all MyWelfare services.",
+            "paragraph": "The CreationKit is the design system behind MyWelfare. It is a single source of truth which builds consistency and efficiency into all MyWelfare services. It gives developers and designers visibility of rules and rationales that are baked into the identity of the site."
+        },
+        "section1": {
+            "number": "01",
+            "header": "A component and style inventory",
+            "paragraph": "To understand how all of the components work together, what fonts are used where and decide what versions of components to keep, a component and style inventory was needed. Once all components and styling such as fonts and colours were gathered, we could work on consolidating it to ensure consistency. ",
+            "image": "../assets/Getting Started.png"
+        },
+        "section2": {
+            "number": "02",
+            "header": "A robust and scalable site",
+            "paragraph": "MyWelfare is still growing and expanding, so the CreationKit needed to be scalable and be able to grow with MyWelfare. We spent a lot of time on the information architecture, and allowed for the addition of new components, icons, colours and styles.",
+            "image": "../assets/Example 2.png"
+        },
+        "section3": {
+            "number": "03",
+            "header": "Distilling the brand",
+            "paragraph": "As with components, colours and fonts were being used in quite a flexible way on the site. After consolidating colours, fonts, icons, etc we assigned rules to the use of those — where and when a font or colour should be used.",
+            "image": "../assets/CreationKitGroup.png"
+        }
+    },
+    {
+        "name": "be-kind",
+        "title": "BeKind",
+        "role": "UX Exploratory",
+        "description": "A small charity set up to alleviate poverty in India with a particular focus on Calcutta",
+        "img": "../assets/Home.png",
+        "button": "Learn more",
+        "textColor": "#231F20",
+        "intro": {
+            "title": "BeKind",
+            "subheader": "A small charity set up to alleviate poverty in India. ",
+            "paragraph": "BeKind wanted to better engage with their supporters and generate more donations for the charity. To do this they wanted to generate donations through their website. BeKind’s sitemap was confusing, and with a quick review we realised some pages were difficult to find, or hard to navigate to. Our biggest challenge was time: we had one day to do this.",
+            "button": "Visit website",
+            "buttonLink": "https://www.w3schools.com"
+        },
+        "section1": {
+            "number": "01",
+            "header": "Information Architecture",
+            "paragraph": "Users* found it hard to navigate through the site and some of the content was only accessible through the homepage. We set about pulling apart the information on the site, and putting it together again in a way that was predictable and easy to navigate through.         *The project team acted as users here as the project was time-limited. ",
+            "image": "../assets/BeKind-wireframes 1.png"
+        },
+        "section2": {
+            "number": "02",
+            "header": "Label audit",
+            "paragraph": "The headings on the main navigation were not intuitive for users and the website had acronyms that the user couldn’t possibly understand. We set about relabelling the headings, while looping in with the client and our content strategists to understand the context and importance these labels held.",
+            "image": "../assets/BeKind-labels-1.png"
+        },
+        "section3": {
+            "number": "03",
+            "header": "Re-prioritisation of content",
+            "paragraph": "BeKind had really good photography and videos scattered through the site, but they wasn’t given much prominence on each page, and some of the videos were quite small. We lifted the importance of this content, and gave it a more consistent look and feel throughout the site.",
+            "image": "../assets/Be-kind-wirefarmes-2.png"
+        }
+    },
+    {
+        "name": "money-management-tool",
+        "title": "Money management tool",
+        "role": "Built-in app",
+        "description": "A simple money management tool to empower the elderly and vulnerable in society to complete their everyday banking needs",
+        "img": "../assets/UB_phone_1.png",
+        "button": "Learn more",
+        "textColor": "#ffffff",
+        "intro": {
+            "title": "Ulster Bank Hackathon money management tool",
+            "subheader": "A money management tool to empower the elderly and vulnerable in society to complete their everyday banking needs. ",
+            "paragraph": "The hackathon took place over a weekend, which meant we had 54 hours to come up with a solution. In Ireland, financial abuse of the elderly is on the rise. We kept this at the forefront of our minds to ensure we were preventing financial exclusion for the elderly and vulnerable, and not further enabling this abuse.",
+            "button": "View prototype",
+            "buttonLink": "https://www.w3schools.com"
+        },
+        "section1": {
+            "number": "01",
+            "header": "Understanding our target audience",
+            "paragraph": "We created two personas: Mary who lives in Cork and her son Darragh who lives in Dublin. Mary was afraid of financial scams, and wanted to be able to manage her money as her branch had just closed. Darragh wanted to help his Mam from afar, and for her to feel safe. ",
+            "image": "../assets/PensionerMary.png"
+        },
+        "section2": {
+            "number": "02",
+            "header": "Establishing a third party within the app",
+            "paragraph": "We gave Mary the ability to add Darragh and his siblings to her account, so that they could all have visibility over her account, and ensure financial transparency within the family.",
+            "image": "../assets/Establish-3rd-party_1.png"
+        },
+        "section3": {
+            "number": "03",
+            "header": "The ability to manage permissions in real-time",
+            "paragraph": "Mary could set what permissions Darragh and his siblings had on her account. She could do this quickly within the app, without having to call the bank or travel into the branch in the next town over.",
+            "image": "../assets/mockup2.png"
+        }
+    },
     {
         "name": "hilliard-studio-method",
         "title": "Hilliard Studio Method",
@@ -41,9 +140,47 @@
         "description": "We went back to basics and found out from users what they needed and how...",
         "img": "../assets/hilliardStudioMethod.png",
         "button": "Learn more",
-        "text-color": "#000000"
-
-
+        "text-color": "#231F20"
+    },
+    {
+        "name": "about",
+        "section1": {
+            "title": "Who am I?",
+            "subHeader": "I’m Mairéad, a visual storyteller.",
+            "paragraph1": "I graduated from Limerick School of Art and Design in 2015, spent a year in New York and have spent the last while catching up with everyone in Dublin.",
+            "paragrah2": "I’m passionate about creating intuitive experiences through sleek interfaces and delightful interactions. My process focuses heavily on investigating user needs and delivering a product or service that matches or exceeds these needs.",
+            "image": "../assets/MAIREAD.png"
+        },
+        "section2": {
+            "subHeader": "I do other things too...",
+            "paragraph1": "I’m trying my damndest to stand up on a surf board…and turn. Mostly the standing up part though, it’s hard! I also play tennis and tag rugby—but I’ll really play any kind of sport depending on my surroundings! I’m a big fan of food...so you’ll usually find me devouring a steak or heaping some cheese onto a cracker. "
+        },
+        "section3": {
+            "subHeader": "Experience",
+            "paragraph1": "You can view more on ",
+            "paragraph2": "LinkedIn",
+            "paragraph2link": "https://www.linkedin.com/in/mairéad-murphy-77443775",
+            "paragraph3": "or ",
+            "paragraph4": "download my cv here.",
+            "paragraph4link": "https://www.w3schools.com",
+            "experience": [
+                {
+                    "companyName": "Deloitte Digital",
+                    "time": "2017-Now",
+                    "title": "UX/UI designer"
+                },
+                {
+                    "companyName": "Vision Branding",
+                    "time": "2017",
+                    "title": "Environmental designer"
+                },
+                {
+                    "companyName": "Skaggs Creative",
+                    "time": "2016-2017",
+                    "title": "Graphic designer"
+                }
+            ]
+        }
     }
 
 ]

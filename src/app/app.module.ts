@@ -9,11 +9,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { ContentTileComponent } from './content-tile/content-tile.component';
+import { FooterComponent } from './footer/footer.component';
+
 import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 import { ContentService } from './content.service';
 import { ProjectPageComponent } from './project-page/project-page.component';
 import { ButtonComponent } from './css-components/button/button.component';
+import { PillComponent } from './css-components/pill/pill.component';
+
 import { APP_INITIALIZER } from '@angular/core';
 
 @NgModule({
@@ -23,10 +26,11 @@ import { APP_INITIALIZER } from '@angular/core';
     HomeComponent,
     AboutComponent,
     NavBarComponent,
-    ContentTileComponent,
+    FooterComponent,
     ProjectSummaryComponent,
     ProjectPageComponent,
-    ButtonComponent
+    ButtonComponent,
+    PillComponent
   ],
   imports: [
     BrowserModule,

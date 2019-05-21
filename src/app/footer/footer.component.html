@@ -1,0 +1,10 @@
+<div class="navBar" id="navBar">
+
+  <span class="navButton" [routerLink]="'/home'">Home</span>
+  <a class="navButton" href="https://www.instagram.com/maireadmurfy/?hl=en" target="_blank" style="text-decoration: none;">Instagram</a>
+  <div class="scroll-to-top" [ngClass]="{'show-scrollTop':windowScrolled}">
+    <span class="navButton" (click)="scrollToTop()">Up</span>
+
+  </div>
+
+</div>
