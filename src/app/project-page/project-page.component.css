@@ -1,4 +1,11 @@
-
+.background-tile{
+    margin-left:-12.5%;
+    margin-right:-12.5%;
+}
+.fix-margin {
+    margin-left:10%;
+    margin-right:10%;
+}
 .paragraph{
     color: #231F20;	
     font-size: 18px;	
@@ -26,7 +33,16 @@
 .centerText {
     text-align: center;
 }
+
+.img-wrapper {
+    flex:auto;
+    align-self:center;
+    display: flex;
+    height:100%;
+    align-items: center;
+}
 .img {
     object-fit: contain;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }

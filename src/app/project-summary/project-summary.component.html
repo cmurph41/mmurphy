@@ -1,12 +1,10 @@
-<div id={{id}} class="contentTile">
-    <div class="text" [style.color]="content.textColor">
-      <h1 class="subheader"> {{ content.title }} </h1>
-      <h2 class="role"> {{ content.role | uppercase }} </h2>
-      <p class="summary"> {{ content.description }} </p>
-    </div>
-    
-    <div style="display: inline-block;" routerLink="/project/{{id}}" *ngIf="content.button">
-          <app-button [buttonText]="content.button"></app-button>
-    </div>
+<div id={{id}} [style.width]="content.summaryWidth">
+  <div class="text" [style.color]="content.textColor">
+    <h1 class="subheader"> {{ content.title }} </h1>
+    <h2 class="role"> {{ content.role | uppercase }} </h2>
+    <p class="summary"> {{ content.description }} </p>
+  </div>
+  <div style="display: inline-block;margin-bottom: 25px;" routerLink="/project/{{id}}" *ngIf="content.button">
+    <app-button [buttonText]="content.button"></app-button>
+  </div>
 </div>
-

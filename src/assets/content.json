@@ -1,12 +1,21 @@
-[
+﻿[
     {
         "name": "my-welfare",
         "title": "MyWelfare.ie",
         "role": "UX/UI Design",
         "description": "The online home for social welfare services in Ireland",
-        "img": "../assets/MyWelfare-iMac4.png",
+        "img": "../assets/final/MyWelfare-iMac4.png",
+        "imageFlexOrder": 1,
+        "summaryFlexOrder": 2,
         "button": "Learn more",
         "textColor": "#ffffff",
+        "summaryWidth": "270px",
+        "index": 1,
+        "backgroundGradient": "linear-gradient(222.36deg, #0F087C 0%, #09063B 100%)",
+        "marginTop":"-60px",
+        "marginBottom":"95px",
+        "maxHeight": "900px",
+        "projectTemplate": "template1",
         "intro": {
             "title": "MyWelfare",
             "subheader": "The online home for social welfare services in Ireland.",
@@ -18,19 +27,59 @@
             "number": "01",
             "header": "Information Architecture",
             "paragraph": "We went back to basics, and found out from users what they needed and how they interpreted the services. We then redesigned the information structure of the site and re-ordered the content to be better understood by citizens. We tested the structure with users and iterated until they had no difficulty finding what they were looking for.",
-            "image": "../assets/MyWelfare-T12-1.png"
+            "image": "../assets/final/MyWelfare_001-MacBook-Silver.png",
+            "bleedToEdge": true,
+            "maxHeight":"1100px"
         },
         "section2": {
             "number": "02",
             "header": "A new CMS",
             "paragraph": "We designed a flexible Information Architecture that can adapt as new services come online, which was built on a CMS to empower the business to be able to update and edit content in a way that remains consistent for the user.",
-            "image": "../assets/MyWelfare-T12-1.png"
+            "image": "../assets/final/MyWelfare-T12-1.png",
+            "bleedToEdge": false,
+            "maxHeight":"690px"
         },
         "section3": {
             "number": "03",
-            "header": "A new CMS",
-            "paragraph": "We designed a flexible Information Architecture that can adapt as new services come online, which was built on a CMS to empower the business to be able to update and edit content in a way that remains consistent for the user.",
-            "image": "../assets/MyWelfare-clay-desktop.png"
+            "header": "Accessible by default",
+            "paragraph": "While the previous website had been accessible, it required the user to choose to display an accessible version of the site. While redesigning MyWelfare, we ensured that the website would be accessible by default for everyone, regardless of ability.",
+            "image": "../assets/final/MyWelfare-clay-desktop2.png",
+            "bleedToEdge": false,
+            "maxHeight":"500px"
+        }
+    },
+    {
+        "name": "bioeffect",
+        "title": "BioEffect skincare",
+        "role": "Brand book",
+        "description": "The story and background behind the Icelandic scientific skincare company BioEffect",
+        "img": "../assets/Bio_Mockup_2.png",
+        "imageFlexOrder": 2,
+        "summaryFlexOrder": 1,
+        "button": "Learn more",
+        "textColor": "#231F20",
+        "summaryWidth": "270px",
+        "marginTop":"0px",
+        "marginBottom":"95px",
+        "maxHeight": "900px",
+        "index": 2,
+        "projectTemplate": "template2",
+        "intro": {
+            "title": "BioEffect skincare",
+            "subheader": "A book that tells the story of BioEffect: an Icelandic skincare brand built through science, not beauty.",
+            "paragraph": "Recently breaking into the US market, Icelandic skincare brand BioEffect has been growing into an international household name. The company is currently growing its brand, and reaching out to influencers in the skincare market."
+        },
+        "section1": {
+            "number": "01",
+            "header": "The book",
+            "paragraph": "The brand book tells the story of BioEffect. It takes the reader through BioEffect’s scientific conception, to their emergence in the skincare sector. BioEffect radiates purity, and the brand book was designed with this in mind.",
+            "image": "../assets/Getting Started.png"
+        },
+        "section2": {
+            "number": "02",
+            "header": "Iceland at its heart",
+            "paragraph": "The design features Icelandic landscapes and combines the rustic nature of the country with the clarity of the ground-breaking product that came out of it.",
+            "image": "../assets/Example 2.png"
         }
     },
     {
@@ -39,8 +88,18 @@
         "role": "Design system",
         "description": "The design system which builds consistency and efficiency into all MyWelfare services",
         "img": "../assets/Group.png",
+        "imageFlexOrder": 1,
+        "summaryFlexOrder": 2,
         "button": "Learn more",
         "textColor": "#231F20",
+        "summaryWidth": "270px",
+        "marginTop":"0px",
+        "marginBottom":"95px",
+        "maxHeight": "1200px",
+        "index": 3,
+        "backgroundGradient": "linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%)",
+        "transformGradient": "scaleY(-1)",
+        "projectTemplate": "template1",
         "intro": {
             "title": "MyWelfare",
             "subheader": "The design system which builds consistency and efficiency into all MyWelfare services.",
@@ -50,53 +109,25 @@
             "number": "01",
             "header": "A component and style inventory",
             "paragraph": "To understand how all of the components work together, what fonts are used where and decide what versions of components to keep, a component and style inventory was needed. Once all components and styling such as fonts and colours were gathered, we could work on consolidating it to ensure consistency. ",
-            "image": "../assets/Getting Started.png"
+            "image": "../assets/final/Getting Started.png",
+            "bleedToEdge": true,
+            "maxHeight":"1100px"
         },
         "section2": {
             "number": "02",
             "header": "A robust and scalable site",
             "paragraph": "MyWelfare is still growing and expanding, so the CreationKit needed to be scalable and be able to grow with MyWelfare. We spent a lot of time on the information architecture, and allowed for the addition of new components, icons, colours and styles.",
-            "image": "../assets/Example 2.png"
+            "image": "../assets/final/Active claim card notifications.png",
+            "bleedToEdge": false,
+            "maxHeight":"500px"
         },
         "section3": {
             "number": "03",
             "header": "Distilling the brand",
             "paragraph": "As with components, colours and fonts were being used in quite a flexible way on the site. After consolidating colours, fonts, icons, etc we assigned rules to the use of those — where and when a font or colour should be used.",
-            "image": "../assets/CreationKitGroup.png"
-        }
-    },
-    {
-        "name": "be-kind",
-        "title": "BeKind",
-        "role": "UX Exploratory",
-        "description": "A small charity set up to alleviate poverty in India with a particular focus on Calcutta",
-        "img": "../assets/Home.png",
-        "button": "Learn more",
-        "textColor": "#231F20",
-        "intro": {
-            "title": "BeKind",
-            "subheader": "A small charity set up to alleviate poverty in India. ",
-            "paragraph": "BeKind wanted to better engage with their supporters and generate more donations for the charity. To do this they wanted to generate donations through their website. BeKind’s sitemap was confusing, and with a quick review we realised some pages were difficult to find, or hard to navigate to. Our biggest challenge was time: we had one day to do this.",
-            "button": "Visit website",
-            "buttonLink": "https://www.w3schools.com"
-        },
-        "section1": {
-            "number": "01",
-            "header": "Information Architecture",
-            "paragraph": "Users* found it hard to navigate through the site and some of the content was only accessible through the homepage. We set about pulling apart the information on the site, and putting it together again in a way that was predictable and easy to navigate through.         *The project team acted as users here as the project was time-limited. ",
-            "image": "../assets/BeKind-wireframes 1.png"
-        },
-        "section2": {
-            "number": "02",
-            "header": "Label audit",
-            "paragraph": "The headings on the main navigation were not intuitive for users and the website had acronyms that the user couldn’t possibly understand. We set about relabelling the headings, while looping in with the client and our content strategists to understand the context and importance these labels held.",
-            "image": "../assets/BeKind-labels-1.png"
-        },
-        "section3": {
-            "number": "03",
-            "header": "Re-prioritisation of content",
-            "paragraph": "BeKind had really good photography and videos scattered through the site, but they wasn’t given much prominence on each page, and some of the videos were quite small. We lifted the importance of this content, and gave it a more consistent look and feel throughout the site.",
-            "image": "../assets/Be-kind-wirefarmes-2.png"
+            "image": "../assets/final/CreationKit-typography.png",
+            "bleedToEdge": false,
+            "maxHeight":"1100px"
         }
     },
     {
@@ -104,9 +135,18 @@
         "title": "Money management tool",
         "role": "Built-in app",
         "description": "A simple money management tool to empower the elderly and vulnerable in society to complete their everyday banking needs",
-        "img": "../assets/UB_phone_1.png",
+        "img": "../assets/final/UB_phone_1.png",
+        "imageFlexOrder": 2,
+        "summaryFlexOrder": 1,
         "button": "Learn more",
         "textColor": "#ffffff",
+        "summaryWidth": "295px",
+        "marginTop":"-120px",
+        "marginBottom":"95px",
+        "maxHeight": "615px",
+        "index": 4,
+        "backgroundGradient": "linear-gradient(217.93deg,  #A00404 0%,  #B1179E 100%)",
+        "projectTemplate": "template1",
         "intro": {
             "title": "Ulster Bank Hackathon money management tool",
             "subheader": "A money management tool to empower the elderly and vulnerable in society to complete their everyday banking needs. ",
@@ -118,69 +158,108 @@
             "number": "01",
             "header": "Understanding our target audience",
             "paragraph": "We created two personas: Mary who lives in Cork and her son Darragh who lives in Dublin. Mary was afraid of financial scams, and wanted to be able to manage her money as her branch had just closed. Darragh wanted to help his Mam from afar, and for her to feel safe. ",
-            "image": "../assets/PensionerMary.png"
+            "image": "../assets/final/Persona-Mary.png",
+            "bleedToEdge": false,
+            "maxHeight":"520px"
         },
         "section2": {
             "number": "02",
             "header": "Establishing a third party within the app",
             "paragraph": "We gave Mary the ability to add Darragh and his siblings to her account, so that they could all have visibility over her account, and ensure financial transparency within the family.",
-            "image": "../assets/Establish-3rd-party_1.png"
+            "image": "../assets/final/Establish-3rd-party_1.png",
+            "bleedToEdge": false,
+            "maxHeight":"450px"
         },
         "section3": {
             "number": "03",
             "header": "The ability to manage permissions in real-time",
             "paragraph": "Mary could set what permissions Darragh and his siblings had on her account. She could do this quickly within the app, without having to call the bank or travel into the branch in the next town over.",
-            "image": "../assets/mockup2.png"
+            "image": "../assets/final/UB-bottom.png",
+            "bleedToEdge": false,
+            "maxHeight":"296px"
+        }
+    },
+    {
+        "name": "be-kind",
+        "title": "BeKind",
+        "role": "UX Exploratory",
+        "description": "A small charity set up to alleviate poverty in India with a particular focus on Calcutta",
+        "img": "../assets/final/BeKind_1.png",
+        "imageFlexOrder": 1,
+        "summaryFlexOrder": 2,
+        "button": "Learn more",
+        "textColor": "#231F20",
+        "summaryWidth": "270px",
+        "marginTop":"0px",
+        "marginBottom":"95px",
+        "maxHeight": "1200px",
+        "index": 5,
+        "projectTemplate": "template1",
+        "intro": {
+            "title": "BeKind",
+            "subheader": "A small charity set up to alleviate poverty in India. ",
+            "paragraph": "BeKind wanted to better engage with their supporters and generate more donations for the charity. To do this they wanted to generate donations through their website. BeKind’s sitemap was confusing, and with a quick review we realised some pages were difficult to find, or hard to navigate to. Our biggest challenge was time: we had one day to do this.",
+            "button": "Visit website",
+            "buttonLink": "https://www.w3schools.com"
+        },
+        "section1": {
+            "number": "01",
+            "header": "Information Architecture",
+            "paragraph": "Users* found it hard to navigate through the site and some of the content was only accessible through the homepage. We set about pulling apart the information on the site, and putting it together again in a way that was predictable and easy to navigate through.         *The project team acted as users here as the project was time-limited. ",
+            "image": "../assets/final/BeKind-wireframes.png",
+            "bleedToEdge": true,
+            "maxHeight":"1100px"
+        },
+        "section2": {
+            "number": "02",
+            "header": "Label audit",
+            "paragraph": "The headings on the main navigation were not intuitive for users and the website had acronyms that the user couldn’t possibly understand. We set about relabelling the headings, while looping in with the client and our content strategists to understand the context and importance these labels held.",
+            "image": "../assets/final/BeKind-labels-1.png",
+            "bleedToEdge": false,
+            "maxHeight":"450px"
+        },
+        "section3": {
+            "number": "03",
+            "header": "Re-prioritisation of content",
+            "paragraph": "BeKind had really good photography and videos scattered through the site, but they wasn’t given much prominence on each page, and some of the videos were quite small. We lifted the importance of this content, and gave it a more consistent look and feel throughout the site.",
+            "image": "../assets/final/Be-kind-wireframes-2.jpg",
+            "bleedToEdge": true,
+            "maxHeight":"900px"
         }
     },
     {
         "name": "hilliard-studio-method",
         "title": "Hilliard Studio Method",
-        "role": "UI Design",
-        "description": "We went back to basics and found out from users what they needed and how...",
-        "img": "../assets/hilliardStudioMethod.png",
+        "role": "Website Redesign",
+        "description": "A fitness studio based in North Carolina focused on female strength and power.",
+        "img": "../assets/Group.png",
+        "imageFlexOrder": 2,
+        "summaryFlexOrder": 1,
         "button": "Learn more",
-        "text-color": "#231F20"
-    },
-    {
-        "name": "about",
+        "textColor": "#231F20",
+        "summaryWidth": "270px",
+        "marginTop":"-120px",
+        "marginBottom":"95px",
+        "maxHeight": "660px",
+        "index": 6,
+        "backgroundGradient": "linear-gradient(226.05deg, #FA7B80 0%, #E7319D 100%)",
+        "projectTemplate": "template1",
+        "intro": {
+            "title": "Hilliard Studio Method",
+            "subheader": "A website for the fitness studio which radiates feminine power. .",
+            "paragraph": "Hilliard Studio Method is a fitness studio based in Charlotte, North Carolina founded by a mother-daughter duo."
+        },
         "section1": {
-            "title": "Who am I?",
-            "subHeader": "I’m Mairéad, a visual storyteller.",
-            "paragraph1": "I graduated from Limerick School of Art and Design in 2015, spent a year in New York and have spent the last while catching up with everyone in Dublin.",
-            "paragrah2": "I’m passionate about creating intuitive experiences through sleek interfaces and delightful interactions. My process focuses heavily on investigating user needs and delivering a product or service that matches or exceeds these needs.",
-            "image": "../assets/MAIREAD.png"
+            "number": "01",
+            "header": "The website",
+            "paragraph": "The website combines large-scale photography with clean lines and a strong video presence to create an interactive experience for the user. The choice of typography reflects the structure and form of HSM’s clients, trainers and company ethos.",
+            "image": "../assets/Getting Started.png"
         },
         "section2": {
-            "subHeader": "I do other things too...",
-            "paragraph1": "I’m trying my damndest to stand up on a surf board…and turn. Mostly the standing up part though, it’s hard! I also play tennis and tag rugby—but I’ll really play any kind of sport depending on my surroundings! I’m a big fan of food...so you’ll usually find me devouring a steak or heaping some cheese onto a cracker. "
-        },
-        "section3": {
-            "subHeader": "Experience",
-            "paragraph1": "You can view more on ",
-            "paragraph2": "LinkedIn",
-            "paragraph2link": "https://www.linkedin.com/in/mairéad-murphy-77443775",
-            "paragraph3": "or ",
-            "paragraph4": "download my cv here.",
-            "paragraph4link": "https://www.w3schools.com",
-            "experience": [
-                {
-                    "companyName": "Deloitte Digital",
-                    "time": "2017-Now",
-                    "title": "UX/UI designer"
-                },
-                {
-                    "companyName": "Vision Branding",
-                    "time": "2017",
-                    "title": "Environmental designer"
-                },
-                {
-                    "companyName": "Skaggs Creative",
-                    "time": "2016-2017",
-                    "title": "Graphic designer"
-                }
-            ]
+            "number": "02",
+            "header": "The brand",
+            "paragraph": "The website redesign aims to reflect and elevate the company’s vision. The logo was redesigned to allow a more modern look, and the imagery that Hilliard Studio Method already had was given more prominence.",
+            "image": "../assets/Example 2.png"
         }
     }
-
 ]

@@ -7,10 +7,6 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit, HostListener }
 })
 export class NavBarComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('stickyMenu') 
-  menuElement: ElementRef;
-
-  sticky: boolean = false;
   elementPosition: any;
 
 
@@ -20,17 +16,12 @@ export class NavBarComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(){
-    this.elementPosition = this.menuElement.nativeElement.offsetTop;
   }
-  @HostListener('window:scroll', ['$event'])
-    handleScroll(){
-      const windowScroll = window.pageYOffset;
-      if(windowScroll >= this.elementPosition){
-        this.sticky = true;
-      } else {
-        this.sticky = false;
-      }
-    }
+
+  handleClick ($event) {
+    
+    $event.target.blur();
+  }
 
   
 }

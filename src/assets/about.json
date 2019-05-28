@@ -1,0 +1,42 @@
+﻿[
+    {
+    "name": "about",
+    "section1": {
+        "title": "Who am I?",
+        "subHeader": "I’m Mairéad, a visual storyteller.",
+        "paragraph1": "I graduated from Limerick School of Art and Design in 2015, spent a year in New York and have spent the last while catching up with everyone in Dublin.",
+        "paragrah2": "I’m passionate about creating intuitive experiences through sleek interfaces and delightful interactions. My process focuses heavily on investigating user needs and delivering a product or service that matches or exceeds these needs.",
+        "image": "../assets/MAIREAD.png"
+    },
+    "section2": {
+        "subHeader": "I do other things too...",
+        "paragraph1": "I’m trying my damndest to stand up on a surf board…and turn. Mostly the standing up part though, it’s hard! I also play tennis and tag rugby—but I’ll really play any kind of sport depending on my surroundings! I’m a big fan of food...so you’ll usually find me devouring a steak or heaping some cheese onto a cracker. "
+    },
+    "section3": {
+        "subHeader": "Experience",
+        "paragraph1": "You can view more on ",
+        "paragraph2": "LinkedIn",
+        "paragraph2link": "https://www.linkedin.com/in/mairéad-murphy-77443775",
+        "paragraph3": "or ",
+        "paragraph4": "download my cv here.",
+        "paragraph4link": "https://www.w3schools.com",
+        "experience": [
+            {
+                "companyName": "Deloitte Digital",
+                "time": "2017-Now",
+                "title": "UX/UI designer"
+            },
+            {
+                "companyName": "Vision Branding",
+                "time": "2017",
+                "title": "Environmental designer"
+            },
+            {
+                "companyName": "Skaggs Creative",
+                "time": "2016-2017",
+                "title": "Graphic designer"
+            }
+        ]
+    }
+}
+]

@@ -1,11 +1,8 @@
 .navBar {
-    position: absolute;
-    right: 0px;
-    margin-top: 43px;
+    margin-top: 31px;
 }
 .navButton {
     color: #E53434;
-    margin-right: 33px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 300;
