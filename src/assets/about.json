@@ -2,10 +2,18 @@
     {
     "name": "about",
     "section1": {
-        "title": "Who am I?",
-        "subHeader": "I’m Mairéad, a visual storyteller.",
-        "paragraph1": "I graduated from Limerick School of Art and Design in 2015, spent a year in New York and have spent the last while catching up with everyone in Dublin.",
-        "paragrah2": "I’m passionate about creating intuitive experiences through sleek interfaces and delightful interactions. My process focuses heavily on investigating user needs and delivering a product or service that matches or exceeds these needs.",
+        "subHeader": "Hey, I’m Mairéad, a visual storyteller.",
+        "paragraph1": "I’m passionate about creating intuitive experiences through sleek interfaces and delightful interactions. I focus heavily on investigating user needs and delivering a product or service that matches or exceeds these needs.",
+        "paragraph2": "I also love to play sports (tennis or surfing being top of that list so hit me up for a game/surf) and while eating food can arguably not be called a passion…I will have gladly have that argument over a bit of cheese on a cracker. ",
+        "paragraph3": "You can view more about me on ",
+        "span1": "LinkedIn",
+        "span1Link": "https://www.linkedin.com/in/mair%C3%A9ad-murphy-77443775/",
+        "span2": " or ",
+        "span3": "download my cv here",
+        "span3Link":"",
+        "span4": "… I also have ",
+        "span5": "Instagram.",
+        "span5Link": "https://www.instagram.com/maireadmurfy/?hl=en",
         "image": "../assets/MAIREAD.png"
     },
     "section2": {

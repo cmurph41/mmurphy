@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule, Router } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectPageComponent } from './project-page/project-page.component';
+import { ProjectTemplateDeciderComponent } from './project-template-decider/project-template-decider.component';
 
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },  
-  { path: 'project/:id', component: ProjectPageComponent },
+  { path: 'project/:id', component: ProjectTemplateDeciderComponent },
 
   // { path: 'project', component: ProjectPageComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -18,7 +19,13 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [],
-  imports: [ RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  imports: [ RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled', onSameUrlNavigation: 'reload'})],
   exports: [ RouterModule ]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+  constructor (private router: Router) {
+    this.router.routeReuseStrategy.shouldReuseRoute = function() {
+      return false;
+  };
+  }
+ }

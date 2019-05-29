@@ -1,0 +1,7 @@
+.logo{
+    height: 53.86px;	
+    width: 57.94px;
+    background: url("../../../assets/Mairead-logo-01.svg") no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}

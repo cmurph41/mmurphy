@@ -1,9 +1,16 @@
 .paragraph{
-    color: #231F20;	
     font-size: 18px;	
     font-weight: 300;
     font-style: normal;
-    
+    color:white;
+    padding-bottom:23px;
+}
+.span{
+    font-size: 18px;	
+    font-weight: 300;
+    font-style: normal;
+    color:white;
+    display: inline; 
 }
 .subheader{
     color: #231F20;	

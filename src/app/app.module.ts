@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
+import { AppHeaderComponent } from './css-components/app-header/app-header.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -14,6 +15,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 import { ContentService } from './content.service';
 import { ProjectPageComponent } from './project-page/project-page.component';
+import { ProjectTemplateDeciderComponent } from './project-template-decider/project-template-decider.component';
+import { ProjectTemplate2Component } from './project-template-2/project-template-2.component';
 import { ButtonComponent } from './css-components/button/button.component';
 import { PillComponent } from './css-components/pill/pill.component';
 
@@ -22,6 +25,7 @@ import { APP_INITIALIZER } from '@angular/core';
 @NgModule({
   declarations: [
     AppComponent,
+    AppHeaderComponent,
     WelcomeComponent,
     HomeComponent,
     AboutComponent,
@@ -29,6 +33,8 @@ import { APP_INITIALIZER } from '@angular/core';
     FooterComponent,
     ProjectSummaryComponent,
     ProjectPageComponent,
+    ProjectTemplateDeciderComponent,
+    ProjectTemplate2Component,
     ButtonComponent,
     PillComponent
   ],

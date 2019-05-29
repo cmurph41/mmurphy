@@ -9,7 +9,7 @@ import { Observable, Subscription } from 'rxjs';
   templateUrl: './project-template-decider.component.html',
   styleUrls: ['./project-template-decider.component.css']
 })
-export class ProjectTemplateDeciderComponent implements OnInit, AfterViewInit {
+export class ProjectTemplateDeciderComponent implements OnInit, AfterViewInit,OnChanges {
 
   content : any = new Map();
   $content: Observable<any>;
@@ -26,7 +26,6 @@ export class ProjectTemplateDeciderComponent implements OnInit, AfterViewInit {
     
     this.id = this.route.snapshot.paramMap.get('id');
     this.setUpSub();
-    // this.content = this.contentService.getContentById(id);
   }
   public setUpSub(){
     this.$content = this.contentService.getCurrentContentMapEmitter();
@@ -45,6 +44,8 @@ export class ProjectTemplateDeciderComponent implements OnInit, AfterViewInit {
   ngOnDestroy(){     
     this.contentSub.unsubscribe;
 
+  }
+  ngOnChanges(){
   }
 
 

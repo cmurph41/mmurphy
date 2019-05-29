@@ -1,0 +1,44 @@
+<div *ngIf="loaded">
+  <div style="max-width: 620px;">
+    <div class="title">{{content.intro.title}}</div>
+    <div class="subheader">{{content.intro.subheader}}</div>
+    <div class="paragraph">{{content.intro.paragraph}}</div>
+  </div>
+
+  <div *ngIf="content.intro.button">
+  <a  href="{{content.intro.buttonLink}}" target="_blank" style="text-decoration: none;">
+    <app-button [buttonText]="content.intro.button"></app-button>
+  </a></div>
+
+  <div style="height:143px"></div>
+
+  <div style="display:flex;flex-direction: column;" [ngClass]="{'background-tile':  content.section1.backgroundGradient }"
+    [ngStyle]="{'background': content.section1.backgroundGradient}">
+    <div [ngClass]="(content.section1.backgroundGradient)? 'fix-margin':''">
+      <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px'}">
+        <img class="img" [ngStyle]="{'max-height': content.section1.maxHeight}" src="{{content.section1.image}}">
+      </div>
+      <div style="display:flex; justify-content: flex-end;">
+        <div style="display:flex;flex-direction:column;justify-content:center;max-width:350px;">
+          <div class="subheader" [ngStyle]="{'color':content.section1.textColor}">{{content.section1.header}}</div>
+          <div class="paragraph" [ngStyle]="{'color':content.section1.textColor}">{{content.section1.paragraph}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction: column;padding-top:100px;" [ngClass]="{'background-tile':  content.section2.backgroundGradient }"
+    [ngStyle]="{'background': content.section2.backgroundGradient}">
+    <div [ngClass]="(content.section2.backgroundGradient)? 'fix-margin':''">
+      <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section2.bleedToEdge)?'-12.5%':'0px'}">
+        <img class="img" [ngStyle]="{'max-height': content.section2.maxHeight}" src="{{content.section2.image}}">
+      </div>
+      <div style="display:flex; justify-content: flex-start;">
+        <div style="display:flex;flex-direction:column;justify-content:center;max-width:350px;">
+          <div class="subheader" [ngStyle]="{'color':content.section2.textColor}">{{content.section2.header}}</div>
+          <div class="paragraph" [ngStyle]="{'color':content.section2.textColor}">{{content.section2.paragraph}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

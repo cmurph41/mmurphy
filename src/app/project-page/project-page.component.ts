@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, AfterViewInit, OnChanges } from '@angular/core';
+import { Component, OnInit, Input, AfterViewInit, OnChanges, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ContentService } from '../content.service';
 import { Observable, Subscription } from 'rxjs';
@@ -9,12 +9,13 @@ import { Observable, Subscription } from 'rxjs';
   templateUrl: './project-page.component.html',
   styleUrls: ['./project-page.component.css']
 })
-export class ProjectPageComponent implements OnInit, AfterViewInit {
+export class ProjectPageComponent implements OnInit, AfterViewInit, OnDestroy {
 
   content : any = new Map();
   $content: Observable<any>;
   contentSub: Subscription;
-
+  
+  @Input()
   id;
   loaded = false;
 
@@ -24,7 +25,7 @@ export class ProjectPageComponent implements OnInit, AfterViewInit {
 
   ngOnInit() { 
     
-    this.id = this.route.snapshot.paramMap.get('id');
+    // this.id = this.route.snapshot.paramMap.get('id');
     this.setUpSub();
     // this.content = this.contentService.getContentById(id);
   }
@@ -39,6 +40,8 @@ export class ProjectPageComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() { 
+    this.contentSub.unsubscribe;
+
 
   }
 

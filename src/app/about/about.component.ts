@@ -28,7 +28,7 @@ export class AboutComponent implements OnInit {
     this.setUpSub();
   }
   public setUpSub(){
-    this.$content = this.contentService.getCurrentContentMapEmitter();
+    this.$content = this.contentService.getAboutMapEmitter();
     this.contentSub = this.$content.subscribe( (data: any) => { 
       
       this.content = data.get(this.id);

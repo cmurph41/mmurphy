@@ -1,5 +1,10 @@
 <div class="navBar" id="navBar">
   <a class="navButton" href="https://www.instagram.com/maireadmurfy/?hl=en" target="_blank" style="text-decoration: none;">Instagram</a>
+  <div *ngIf="isProjectPage" style="display: flex; flex-direction: row;flex-grow:2;justify-content: center;">
+    <div  class="navButton" style="padding-left: 50px;padding-right:25px" routerLink="/project/{{previousProjectId}}">Previous</div>
+    <div  class="navButton" style="padding-left: 25px;padding-right:50px" routerLink="/project/{{nextProjectId}}">Next</div>
+  </div>
+  
   <div class="scroll-to-top" [ngClass]="{'show-scrollTop':windowScrolled}">
     <span class="navButton" (click)="scrollToTop()">Up</span>
   </div>

@@ -73,13 +73,23 @@
             "number": "01",
             "header": "The book",
             "paragraph": "The brand book tells the story of BioEffect. It takes the reader through BioEffect’s scientific conception, to their emergence in the skincare sector. BioEffect radiates purity, and the brand book was designed with this in mind.",
-            "image": "../assets/Getting Started.png"
+            "image": "../assets/final/Bio_Mockup_3.png",
+            "bleedToEdge": false,
+            "maxHeight":"1500px",
+            "backgroundGradient": "linear-gradient(135deg, #272D35 0%, #839BA7 100%)",
+            "textColor": "#ffffff"
+
         },
         "section2": {
             "number": "02",
             "header": "Iceland at its heart",
             "paragraph": "The design features Icelandic landscapes and combines the rustic nature of the country with the clarity of the ground-breaking product that came out of it.",
-            "image": "../assets/Example 2.png"
+            "image": "../assets/final/Bio_Mockup_1.png",
+            "bleedToEdge": false,
+            "maxHeight":"1500px",
+            "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F2F2F2 100%)",
+            "textColor": "#231F20"
+
         }
     },
     {

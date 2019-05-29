@@ -1,0 +1,48 @@
+.background-tile{
+    margin-left:-12.5%;
+    margin-right:-12.5%;
+}
+.fix-margin {
+    margin-left:10%;
+    margin-right:10%;
+}
+.paragraph{
+    color: #231F20;	
+    font-size: 18px;	
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom:24px;    
+}
+.subheader{
+    color: #231F20;	
+    font-size: 36px;	
+    font-weight: bold;
+    font-style: normal;
+    line-height: 46px;
+    padding-bottom:16px;
+}
+.title {
+    color: #231F20;	
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 25px;
+    padding-bottom: 8px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.img-wrapper {
+    flex:auto;
+    align-self:center;
+    display: flex;
+    height:100%;
+    align-items: center;
+}
+.img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
