@@ -14,7 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 
 import { ProjectSummaryComponent } from './project-summary/project-summary.component';
 import { ContentService } from './content.service';
-import { ProjectPageComponent } from './project-page/project-page.component';
+import { ProjectTemplate1Component } from './project-template-1/project-template-1.component';
 import { ProjectTemplateDeciderComponent } from './project-template-decider/project-template-decider.component';
 import { ProjectTemplate2Component } from './project-template-2/project-template-2.component';
 import { ButtonComponent } from './css-components/button/button.component';
@@ -32,7 +32,7 @@ import { APP_INITIALIZER } from '@angular/core';
     NavBarComponent,
     FooterComponent,
     ProjectSummaryComponent,
-    ProjectPageComponent,
+    ProjectTemplate1Component,
     ProjectTemplateDeciderComponent,
     ProjectTemplate2Component,
     ButtonComponent,

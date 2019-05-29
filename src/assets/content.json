@@ -205,6 +205,7 @@
         "maxHeight": "1200px",
         "index": 5,
         "projectTemplate": "template1",
+        
         "intro": {
             "title": "BeKind",
             "subheader": "A small charity set up to alleviate poverty in India. ",
@@ -215,10 +216,11 @@
         "section1": {
             "number": "01",
             "header": "Information Architecture",
-            "paragraph": "Users* found it hard to navigate through the site and some of the content was only accessible through the homepage. We set about pulling apart the information on the site, and putting it together again in a way that was predictable and easy to navigate through.         *The project team acted as users here as the project was time-limited. ",
+            "paragraph": "Users* found it hard to navigate through the site and some of the content was only accessible through the homepage. We set about pulling apart the information on the site, and putting it together again in a way that was predictable and easy to navigate through.",
             "image": "../assets/final/BeKind-wireframes.png",
             "bleedToEdge": true,
-            "maxHeight":"1100px"
+            "maxHeight":"1100px",
+            "asterisk" :"*The project team acted as users here as the project was time-limited."
         },
         "section2": {
             "number": "02",

@@ -5,11 +5,11 @@ import { Observable, Subscription } from 'rxjs';
 
 
 @Component({
-  selector: 'app-project-page',
-  templateUrl: './project-page.component.html',
-  styleUrls: ['./project-page.component.css']
+  selector: 'app-project-template-1',
+  templateUrl: './project-template-1.component.html',
+  styleUrls: ['./project-template-1.component.css']
 })
-export class ProjectPageComponent implements OnInit, AfterViewInit, OnDestroy {
+export class ProjectTemplate1Component implements OnInit, AfterViewInit, OnDestroy {
 
   content : any = new Map();
   $content: Observable<any>;
@@ -25,9 +25,7 @@ export class ProjectPageComponent implements OnInit, AfterViewInit, OnDestroy {
 
   ngOnInit() { 
     
-    // this.id = this.route.snapshot.paramMap.get('id');
     this.setUpSub();
-    // this.content = this.contentService.getContentById(id);
   }
   public setUpSub(){
     this.$content = this.contentService.getCurrentContentMapEmitter();

@@ -16,6 +16,7 @@
     <div style="display:flex;flex-direction:column;justify-content:center;max-width:350px;margin-right:45px;">
       <div class="subheader">{{content.section1.header}}</div>
       <div class="paragraph">{{content.section1.paragraph}}</div>
+      <div *ngIf="content.section1.asterisk" class="paragraph" style="font-size:14px;">{{content.section1.asterisk}}</div>
     </div>
     <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px', 
   'justify-content': 'flex-end'}">
