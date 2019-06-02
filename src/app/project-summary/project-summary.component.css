@@ -4,23 +4,36 @@
     font-weight: 300;
     font-style: normal;
     line-height: 22px;
+    padding-bottom: 12px;
 }
 
 .summary{
     font-size: 18px;	
     font-weight: 300;
     font-style: normal;
+    padding-bottom: 20px;
     
 }
-.subheader{
+.project-name{
     font-size: 36px;	
     font-weight: bold;
     font-style: normal;
     line-height: 46px;
+    padding-bottom: 6px;
 }
 .title {
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
     line-height: 25px;
+}
+
+@media (max-width: 660px)
+ {
+    .summary-wrap{
+        width:100%!important;
+    }
+    .outline{
+        width:-webkit-fill-available!important;
+    }
 }

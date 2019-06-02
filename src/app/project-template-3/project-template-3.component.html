@@ -1,0 +1,60 @@
+<div *ngIf="loaded">
+  <section>
+    <div style="max-width: 620px;">
+      <h1>
+        <div class="title">{{content.intro.title}}</div>
+      </h1>
+      <h2>
+        <div class="subheader">{{content.intro.subheader}}</div>
+      </h2>
+      <div class="paragraph">
+        <p>{{content.intro.paragraph}}</p>
+      </div>
+    </div>
+    <div *ngIf="content.intro.button">
+      <a class="button" href="{{content.intro.buttonLink}}" target="_blank" style="text-decoration: none;">
+        <app-button [buttonText]="content.intro.button"></app-button>
+      </a>
+    </div>
+  </section>
+  <div style="height:50px"></div>
+  <section>
+    <div style="display:flex;flex-direction: column;" [ngClass]="{'background-tile':  content.section1.backgroundGradient }"
+      [ngStyle]="{'background': content.section1.backgroundGradient}">
+      <div [ngClass]="(content.section1.backgroundGradient)? 'fix-margin':''" style="margin-top:100px">
+        <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px'}">
+          <img class="img" [ngStyle]="{'max-height': content.section1.maxHeight}" src="{{content.section1.image}}" [alt]="content.section1.imgAltText">
+        </div>
+        <div style="display:flex; justify-content: flex-end;margin-bottom:80px;margin-top:40px;">
+          <div style="display:flex;flex-direction:column;justify-content:center;max-width:350px;">
+            <h2>
+              <div class="subheader" [ngStyle]="{'color':content.section1.textColor}">{{content.section1.header}}</div>
+            </h2>
+            <div class="paragraph" [ngStyle]="{'color':content.section1.textColor}">
+              <p>{{content.section1.paragraph}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div [ngClass]="{'background-tile':  content.section2.backgroundGradient }" [ngStyle]="{'background': content.section2.backgroundGradient}">
+      <div style="display:flex;flex-direction: row;justify-content: space-between;padding-top:90px;padding-bottom:60px;" [ngClass]="(content.section2.backgroundGradient)? 'fix-margin':''">
+        <div style="display:flex;flex-direction:column;justify-content:center;max-width:400px;margin-right:45px;">
+          <h2>
+            <div class="subheader">{{content.section2.header}}</div>
+          </h2>
+          <div class="paragraph">
+            <p>{{content.section2.paragraph}}</p>
+          </div>
+          <div *ngIf="content.section2.asterisk" class="paragraph" style="font-size:14px;">{{content.section2.asterisk}}</div>
+        </div>
+        <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section2.bleedToEdge)?'-12.5%':'0px','justify-content': 'flex-end'}">
+          <img class="img" [ngStyle]="{'max-height': content.section2.maxHeight}" src="{{content.section2.image}}" [alt]="content.section2.imgAltText">
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>

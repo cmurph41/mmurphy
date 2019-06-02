@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule, Router } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ProjectPageComponent } from './project-page/project-page.component';
 import { ProjectTemplateDeciderComponent } from './project-template-decider/project-template-decider.component';
 
 
@@ -12,7 +11,6 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },  
   { path: 'project/:id', component: ProjectTemplateDeciderComponent },
 
-  // { path: 'project', component: ProjectPageComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: '**', redirectTo: '/home'}
 ];

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ContentService } from './content.service';
+import 'remove-focus-outline';
 
 @Component({
   selector: 'app-root',

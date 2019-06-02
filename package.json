@@ -21,7 +21,9 @@
     "@angular/platform-browser-dynamic": "^7.2.7",
     "@angular/router": "^7.2.7",
     "core-js": "^2.5.4",
+    "remove-focus-outline": "^1.2.1",
     "rxjs": "6.0.0",
+    "what-input": "^5.2.1",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

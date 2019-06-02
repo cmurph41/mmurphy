@@ -1,41 +1,40 @@
 <app-header></app-header>
-<div>
-  <app-welcome></app-welcome>
-</div>
-<div style="height:100px;"></div>
+<main>
+  <div>
+    <app-welcome></app-welcome>
+  </div>
+  <div style="height:100px;"></div>
 
-<div *ngFor="let project of content | keyvalue:indexOrderAsc; let i = index;" 
-[ngStyle]="{'padding-bottom': (i!== content.size-1)?'200px':'0px' }">
-  <div [ngClass]="{'background-tile': project.value.backgroundGradient }" 
-  [ngStyle]="{'background': project.value.backgroundGradient, 
+  <div *ngFor="let project of content | keyvalue:indexOrderAsc; let i = index;" [ngClass]="{'spacer': (i!== content.size-1)}">
+    <section>
+      <div [id]="project.value.name + '-home-page-tile'" class="tile-wrapper" [ngClass]="{'background-tile': project.value.backgroundGradient }"
+        [ngStyle]="{'background': project.value.backgroundGradient, 
       'transform': project.value.transformGradient, 
       'max-height': project.value.maxHeight  }">
-      
 
-    <div [ngClass]="(project.value.backgroundGradient)?
-    'fix-margin content-tile':'content-tile'" 
-    [ngStyle]="{'transform': project.value.transformGradient, 
+
+        <div [ngClass]="(project.value.backgroundGradient)?
+    'fix-margin content-tile':'content-tile'" [ngStyle]="{'transform': project.value.transformGradient, 
       'max-height': project.value.maxHeight}">
 
-      <div class="img-wrapper" 
-      [ngStyle]="{'order': project.value.imageFlexOrder, 
+          <div class="img-wrapper" [ngStyle]="{'order': project.value.imageFlexOrder, 
         'margin-top': project.value.marginTop, 
         'margin-bottom':project.value.marginBottom,
         'justify-content': (project.value.imageFlexOrder===1)?'flex-start':'flex-end', 
         'max-height': project.value.maxHeight }">
-        <img [ngStyle]="{'max-height': project.value.maxHeight}" class="img" 
-        [src]="project.value.img">
-      </div>
-      <app-project-summary class="proj-summary-component-wrapper" 
-        [ngStyle]="{'order': project.value.summaryFlexOrder, 
+            <div [ngClass]="(project.value.marginTop)? 'img-media':''">
+              <img [ngStyle]="{'max-height': project.value.maxHeight}" class="img" [alt]="project.value.imgAltText" [src]="project.value.img">
+            </div>
+          </div>
+          <app-project-summary class="proj-summary-component-wrapper" [ngStyle]="{'order': project.value.summaryFlexOrder, 
           'margin-right': (project.value.summaryFlexOrder===1)?'56px':'0px', 
           'margin-left': (project.value.summaryFlexOrder===2)?'56px':'0px', 
           'justify-content': (project.value.summaryFlexOrder===1)?'flex-start':'flex-end', 
-          'max-height': project.value.maxHeight}" 
-        [content]="project.value" [id]="project.value.name">
-      </app-project-summary>
-    </div>
+          'max-height': project.value.maxHeight}" [content]="project.value" [id]="project.value.name">
+          </app-project-summary>
+        </div>
+      </div>
+    </section>
   </div>
-
-</div>
+</main>
 <app-footer></app-footer>

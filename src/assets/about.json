@@ -14,7 +14,8 @@
         "span4": "… I also have ",
         "span5": "Instagram.",
         "span5Link": "https://www.instagram.com/maireadmurfy/?hl=en",
-        "image": "../assets/MAIREAD.png"
+        "image": "../assets/final/IMG_6775.png",
+        "imgAltText": ""
     },
     "section2": {
         "subHeader": "I do other things too...",

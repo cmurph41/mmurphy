@@ -13,14 +13,11 @@ export class NavBarComponent implements OnInit, AfterViewInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
   ngAfterViewInit(){
-  }
 
-  handleClick ($event) {
-    
-    $event.target.blur();
   }
 
   

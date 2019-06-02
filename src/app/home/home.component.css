@@ -27,14 +27,58 @@
     display: flex;
     align-items: center;
 }
+.spacer {
+    padding-bottom: 200px;
+}
 
-/* @media (max-width: 960px)
+ @media (max-width: 660px)
 {
-    .my-welfare-tile{
-        background: linear-gradient(222.36deg, #0F087C 0%, #09063B 100%);
-        height: 758px;
-        display: flex;
-        flex-direction: column;
+    .content-tile {
+        flex-flow:column!important;
+        max-height: none!important;
+    }
+    .img-wrapper {
+        order:1!important;
+        margin-right: 0px!important;
+        margin-left: 0px!important; 
+        margin-bottom:0px!important;
+        margin-top:20px!important;
+        justify-content: center!important; 
+        max-height: 300px!important;  
+    }
+    .proj-summary-component-wrapper {
+        order:2!important;
+        margin-right: 0px!important;
+        margin-left: 0px!important; 
+        justify-content: center!important; 
+        max-height: 300px!important;  
+    }
+    .img {
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 300px!important;
+    }
+    .background-tile{
+        height: 630px!important;  
+        max-height: none!important;
+        margin-left:-2.632%!important; /*2.5/95*/
+        margin-right:-2.632%!important;
 
     }
-} */
+    .fix-margin {
+        margin-left:2.5%!important;
+        margin-right:2.5%!important;
+    }
+    .tile-wrapper {
+        /* height: 600px!important; */
+        max-height: none!important;
+
+    }
+    .spacer {
+        padding-bottom: 50px!important;
+    }
+    .img-media {
+        margin-top:-10px!important;
+    }
+
+} 

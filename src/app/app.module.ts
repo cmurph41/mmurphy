@@ -17,10 +17,12 @@ import { ContentService } from './content.service';
 import { ProjectTemplate1Component } from './project-template-1/project-template-1.component';
 import { ProjectTemplateDeciderComponent } from './project-template-decider/project-template-decider.component';
 import { ProjectTemplate2Component } from './project-template-2/project-template-2.component';
+import { ProjectTemplate3Component } from './project-template-3/project-template-3.component';
 import { ButtonComponent } from './css-components/button/button.component';
 import { PillComponent } from './css-components/pill/pill.component';
 
 import { APP_INITIALIZER } from '@angular/core';
+
 
 @NgModule({
   declarations: [
@@ -35,6 +37,7 @@ import { APP_INITIALIZER } from '@angular/core';
     ProjectTemplate1Component,
     ProjectTemplateDeciderComponent,
     ProjectTemplate2Component,
+    ProjectTemplate3Component, 
     ButtonComponent,
     PillComponent
   ],

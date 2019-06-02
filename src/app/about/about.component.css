@@ -1,7 +1,4 @@
 .paragraph{
-    font-size: 18px;	
-    font-weight: 300;
-    font-style: normal;
     color:white;
     padding-bottom:23px;
 }
@@ -10,19 +7,56 @@
     font-weight: 300;
     font-style: normal;
     color:white;
-    display: inline; 
+    display: inline;
 }
-.subheader{
-    color: #231F20;	
-    font-size: 36px;	
-    font-weight: bold;
-    font-style: normal;
-    line-height: 46px;
+.borderSetup {
+    margin-left: 10%;
+    margin-right:10%;
+    padding-top:40px;
 }
-.title {
-    color: #231F20;	
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 25px;
+.x-icon {
+    color:#FFFFFF;
+    font-size: 28px;
+    cursor:pointer;
+    display:inline-block;
+    width:28px;
+    background: url('../../assets/final/AboutX.png') no-repeat;
+}
+.marginSetup {
+    margin-left:-12.5%;
+    margin-right:-12.5%;
+    background-color: #E53434;
+    height: 100vh;
+}
+.x-wrapper {
+    display:flex;
+    justify-content:flex-end;
+    height: 28px;
+}
+@media (max-width: 660px)
+
+
+{
+    .marginSetup{
+        margin-left:-2.632%!important; /*2.5/95*/
+        margin-right:-2.632%!important;
+    }
+
+    .aboutImage {
+        display:none!important;
+    }
+    .borderSetup {
+        margin-left: 2.5%!important;
+        margin-right:2.5%!important;
+        padding-top:0px!important;
+
+    }
+    .marginSetup {
+        
+        /* height: auto!important; */
+    }
+    .x-wrapper {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 }

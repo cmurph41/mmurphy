@@ -8,7 +8,6 @@
 }
 .navButton {
     color: #E53434;
-    /* margin-right: 33px; */
     cursor: pointer;
     font-size: 20px;
     font-weight: 300;
@@ -16,11 +15,22 @@
     line-height: 25px;
     height: 25px;
 
+    background: none;
+    box-sizing: unset;
+    border:none;
+    font-family: CircularStd, sans-serif!important;
+}
+.previous-next{
+    display: flex;
+    flex-direction: row;
+    flex-grow:2;
+    justify-content: center;
 }
 
-/* .sticky{
-    position: fixed;
-    top: 0;
-    overflow: hidden;
-    z-index: 10;
-  } */
+@media(max-width:660px) {
+    .scroll-to-top {
+        display:none;
+    }
+    .previous-next{
+    }
+}

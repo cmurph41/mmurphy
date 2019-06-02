@@ -1,52 +1,76 @@
 <div *ngIf="loaded">
-  <div style="max-width: 620px;">
-    <div class="title">{{content.intro.title}}</div>
-    <div class="subheader">{{content.intro.subheader}}</div>
-    <div class="paragraph">{{content.intro.paragraph}}</div>
-  </div>
-
-  <div *ngIf="content.intro.button">
-  <a  href="{{content.intro.buttonLink}}" target="_blank" style="text-decoration: none;display:inline-block;">
-    <app-button [buttonText]="content.intro.button"></app-button>
-  </a></div>
-
-  <div style="height:143px"></div>
-
-  <div style="display:flex;flex-direction: row;justify-content: space-between; ">
-    <div style="display:flex;flex-direction:column;justify-content:center;max-width:350px;margin-right:45px;">
-      <div class="subheader">{{content.section1.header}}</div>
-      <div class="paragraph">{{content.section1.paragraph}}</div>
-      <div *ngIf="content.section1.asterisk" class="paragraph" style="font-size:14px;">{{content.section1.asterisk}}</div>
+  <section>
+    <div style="max-width: 620px;">
+      <h1>
+        <div class="title">{{content.intro.title}}</div>
+      </h1>
+      <h2>
+        <div class="subheader">{{content.intro.subheader}}</div>
+      </h2>
+      <div class="paragraph">
+        <p>{{content.intro.paragraph}}</p>
+      </div>
     </div>
-    <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px', 
+
+    <div *ngIf="content.intro.button">
+      <a class="button" href="{{content.intro.buttonLink}}" target="_blank" style="text-decoration: none;">
+        <app-button [buttonText]="content.intro.button"></app-button>
+      </a>
+    </div>
+  </section>
+  <div class="mobile-spacer" style="height:143px"></div>
+  <section>
+    <div class="flex-section">
+      <div class="flex-section-paragraph section-1">
+        <h2>
+          <div class="subheader">{{content.section1.header}}</div>
+        </h2>
+        <div class="paragraph">
+          <p>{{content.section1.paragraph}}</p>
+        </div>
+        <div *ngIf="content.section1.asterisk" class="paragraph" style="font-size:14px;">
+          <p>{{content.section1.asterisk}}</div>
+      </div>
+      <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px', 
   'justify-content': 'flex-end'}">
-    <img class="img" [ngStyle]="{'max-height': content.section1.maxHeight}" src="{{content.section1.image}}"></div>
-  </div>
-
-  <div style="height:200px"></div>
-
-  <div style="display:flex;flex-direction: row;justify-content: space-between">
-    <div class="img-wrapper" [ngStyle]="{'margin-left': (content.section2.bleedToEdge)?'-12.5%':'0px', 
+        <img class="img" [ngStyle]="{'max-height': content.section1.maxHeight}" src="{{content.section1.image}}" [alt]="content.section1.imgAltText">
+      </div>
+    </div>
+  </section>
+  <div class="mobile-spacer" style="height:200px"></div>
+  <section>
+    <div class="flex-section">
+      <div class="img-wrapper" [ngStyle]="{'margin-left': (content.section2.bleedToEdge)?'-12.5%':'0px', 
     'justify-content': 'flex-start'}">
-    <img class="img" [ngStyle]="{'max-height': content.section2.maxHeight}" src="{{content.section2.image}}">
-  </div>
-    <div style="display:flex;flex-direction:column;justify-content:center;max-width:350px;margin-left:45px">
-      <div class="subheader">{{content.section2.header}}</div>
-      <div class="paragraph">{{content.section2.paragraph}}</div>
-    </div>
-    
-  </div>
-  <div style="height:80px"></div>
+        <img class="img" [ngStyle]="{'max-height': content.section2.maxHeight}" src="{{content.section2.image}}" [alt]="content.section2.imgAltText">
+      </div>
+      <div class="flex-section-paragraph section-2">
+        <h2>
+          <div class="subheader">{{content.section2.header}}</div>
+        </h2>
+        <div class="paragraph">
+          <p>{{content.section2.paragraph}}</p>
+        </div>
+      </div>
 
-  <div style="display:flex;flex-direction: column;justify-content:center;align-items:center;">
-    <div style="max-width:550px;margin-bottom:45px;">
-      <div class="subheader centerText">{{content.section3.header}}</div>
-      <div class="paragraph centerText">{{content.section3.paragraph}}</div>
     </div>
+  </section>
+  <div class="mobile-spacer" style="height:80px"></div>
+  <section>
+    <div class="flex-section-paragraph final-section">
+      <div class="final-paragraph">
+        <h2>
+          <div class="subheader centerText">{{content.section3.header}}</div>
+        </h2>
+        <div class="paragraph centerText">
+          <p>{{content.section3.paragraph}}</p>
+        </div>
+      </div>
 
-    <div class="img-wrapper" [ngStyle]="{'margin-left': (content.section3.bleedToEdge)?'-12.5%':'0px', 
+      <div class="img-wrapper" [ngStyle]="{'margin-left': (content.section3.bleedToEdge)?'-12.5%':'0px', 
       'margin-right': (content.section3.bleedToEdge)?'-12.5%':'0px'}">
-      <img class="img" [ngStyle]="{'max-height': content.section3.maxHeight}" src="{{content.section3.image}}">
+        <img class="img" [ngStyle]="{'max-height': content.section3.maxHeight}" src="{{content.section3.image}}" [alt]="content.section3.imgAltText">
+      </div>
     </div>
-  </div>
+  </section>
 </div>

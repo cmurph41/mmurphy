@@ -1,32 +1,17 @@
-.logo{
-    height: 53.86px;	
-    width: 57.94px;
-    background: url("../assets/Mairead-logo-01.svg") no-repeat;
-    display: inline-block;
-    cursor: pointer;
+.app-root{
+    overflow-x: hidden;
+    font-family:CircularStd, sans-serif;
+    padding-left:10%;
+    padding-right:10%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-.logo:hover {
-    cursor: pointer;
-    background: url("../assets/Mairead-logo-hover-02.svg") no-repeat;
-}
-paragraph{
-    color: #231F20;	
-    font-size: 18px;	
-    font-weight: 300;
-    font-style: normal;
-    
-}
-.subheader{
-    color: #231F20;	
-    font-size: 36px;	
-    font-weight: bold;
-    font-style: normal;
-    line-height: 46px;
-}
-.title {
-    color: #231F20;	
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 25px;
+
+
+
+@media (max-width:660px) {
+    .app-root{
+        padding-left:2.5%;
+        padding-right:2.5%;
+    }
 }
