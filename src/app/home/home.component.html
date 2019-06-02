@@ -23,7 +23,8 @@
         'justify-content': (project.value.imageFlexOrder===1)?'flex-start':'flex-end', 
         'max-height': project.value.maxHeight }">
             <div [ngClass]="(project.value.marginTop)? 'img-media':''">
-              <img [ngStyle]="{'max-height': project.value.maxHeight}" class="img" [alt]="project.value.imgAltText" [src]="project.value.img">
+              <img [ngStyle]="{'max-height': project.value.maxHeight}" class="img" [alt]="project.value.imgAltText" 
+                [src]="this.imageSource[(i)]">
             </div>
           </div>
           <app-project-summary class="proj-summary-component-wrapper" [ngStyle]="{'order': project.value.summaryFlexOrder, 

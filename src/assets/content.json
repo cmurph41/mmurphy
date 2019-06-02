@@ -5,6 +5,7 @@
         "role": "UX/UI Design",
         "description": "The online home for social welfare services in Ireland",
         "img": "../assets/final/MyWelfare-iMac4.png",
+        "mobileImg": "../assets/final/mobile/MyWelfare-iMac4.png",
         "imgAltText":"Image of My Welfare homepage",
         "imageFlexOrder": 1,
         "summaryFlexOrder": 2,
@@ -30,6 +31,7 @@
             "paragraph": "We went back to basics, and found out from users what they needed and how they interpreted the services. We then redesigned the information structure of the site and re-ordered the content to be better understood by citizens. We tested the structure with users and iterated until they had no difficulty finding what they were looking for.",
             "image": "../assets/final/MyWelfare_001-MacBook-Silver.png",
             "imgAltText":"Image of My Welfare parents, children and family page",
+            "mobileImg": "../assets/final/mobile/MyWelfare_001-MacBook-Silver.png",
             "bleedToEdge": true,
             "maxHeight":"690px"
         },
@@ -39,6 +41,7 @@
             "paragraph": "We designed a flexible Information Architecture that can adapt as new services come online, which was built on a CMS to empower the business to be able to update and edit content in a way that remains consistent for the user.",
             "image": "../assets/final/MyWelfare-T12-1.png",
             "imgAltText":"Image of My Welfare pension pages on mobile",
+            "mobileImg": "../assets/final/mobile/MyWelfare-T12-1.png",
             "bleedToEdge": false,
             "maxHeight":"690px"
         },
@@ -48,6 +51,7 @@
             "paragraph": "While the previous website had been accessible, it required the user to choose to display an accessible version of the site. While redesigning MyWelfare, we ensured that the website would be accessible by default for everyone, regardless of ability.",
             "image": "../assets/final/MyWelfare-clay-desktop2.png",
             "imgAltText":"Image of My Welfare pension and home pages",
+            "mobileImg": "../assets/final/mobile/MyWelfare-clay-desktop2.png",
             "bleedToEdge": false,
             "maxHeight":"500px"
         }
@@ -57,8 +61,9 @@
         "title": "BioEffect skincare",
         "role": "Brand book",
         "description": "The story and background behind the Icelandic scientific skincare company BioEffect",
-        "img": "../assets/Bio_Mockup_2.png",
-        "imgAltText":"Image of Bio Effect book",
+        "img": "../assets/final/Bio_Mockup_2.2.png",
+        "imgAltText":"Image of Bio Effect book",            
+        "mobileImg": "../assets/final/mobile/Bio_Mockup_2.2.png",
         "imageFlexOrder": 2,
         "summaryFlexOrder": 1,
         "button": "Learn more",
@@ -79,6 +84,7 @@
             "header": "The book",
             "paragraph": "The brand book tells the story of BioEffect. It takes the reader through BioEffect’s scientific conception, to their emergence in the skincare sector. BioEffect radiates purity, and the brand book was designed with this in mind.",
             "image": "../assets/final/Bio_Mockup_3.png",
+            "mobileImg": "../assets/final/mobile/Bio_Mockup_3.png",
             "imgAltText":"",
             "bleedToEdge": false,
             "maxHeight":"1500px",
@@ -91,6 +97,7 @@
             "header": "Iceland at its heart",
             "paragraph": "The design features Icelandic landscapes and combines the rustic nature of the country with the clarity of the ground-breaking product that came out of it.",
             "image": "../assets/final/Bio_Mockup_1.png",
+            "mobileImg": "../assets/final/mobile/Bio_Mockup_1.png",
             "imgAltText":"",
             "bleedToEdge": false,
             "maxHeight":"1500px",
@@ -104,8 +111,9 @@
         "title": "MyWelfare CreationKit",
         "role": "Design system",
         "description": "The design system which builds consistency and efficiency into all MyWelfare services",
-        "img": "../assets/Group.png",
+        "img": "../assets/final/Group.png",
         "imgAltText":"Image of the My Welfare Creation Kit design system",
+        "mobileImg": "../assets/final/mobile/Group.png",
         "imageFlexOrder": 1,
         "summaryFlexOrder": 2,
         "button": "Learn more",
@@ -129,6 +137,7 @@
             "paragraph": "To understand how all of the components work together, what fonts are used where and decide what versions of components to keep, a component and style inventory was needed. Once all components and styling such as fonts and colours were gathered, we could work on consolidating it to ensure consistency. ",
             "image": "../assets/final/Getting Started.png",
             "imgAltText":"Image of the My Welfare Creation Kit home page",
+            "mobileImg": "../assets/final/mobile/Getting Started.png",
             "bleedToEdge": true,
             "maxHeight":"1100px"
         },
@@ -138,6 +147,7 @@
             "paragraph": "MyWelfare is still growing and expanding, so the CreationKit needed to be scalable and be able to grow with MyWelfare. We spent a lot of time on the information architecture, and allowed for the addition of new components, icons, colours and styles.",
             "image": "../assets/final/Active claim card notifications.png",
             "imgAltText":"Image of the Job Seekers Payment page",
+            "mobileImg": "../assets/final/mobile/Active claim card notifications.png",
             "bleedToEdge": false,
             "maxHeight":"500px"
         },
@@ -147,6 +157,7 @@
             "paragraph": "As with components, colours and fonts were being used in quite a flexible way on the site. After consolidating colours, fonts, icons, etc we assigned rules to the use of those — where and when a font or colour should be used.",
             "image": "../assets/final/CreationKit-typography.png",
             "imgAltText":"Image of the My Welfare Creation Kit Typography",
+            "mobileImg": "../assets/final/mobile/CreationKit-typography.png",
             "bleedToEdge": false,
             "maxHeight":"1100px"
         }
@@ -158,6 +169,7 @@
         "description": "A simple money management tool to empower the elderly and vulnerable in society to complete their everyday banking needs",
         "img": "../assets/final/UB_phone_1.png",
         "imgAltText":"Image of the money management mobile app, showing the ability to change the permissions on who can see account information",
+        "mobileImg": "../assets/final/mobile/UB_phone_1.png",
         "imgOrientation": "portrait",
         "imageFlexOrder": 2,
         "summaryFlexOrder": 1,
@@ -181,6 +193,7 @@
             "paragraph": "We created two personas: Mary who lives in Cork and her son Darragh who lives in Dublin. Mary was afraid of financial scams, and wanted to be able to manage her money as her branch had just closed. Darragh wanted to help his Mam from afar, and for her to feel safe. ",
             "image": "../assets/final/Persona-Mary.png",
             "imgAltText":"Image of the person created: Mary, pensioner from Fermoy, Cork",
+            "mobileImg": "../assets/final/mobile/Persona-Mary.png",
             "bleedToEdge": false,
             "maxHeight":"520px"
         },
@@ -190,6 +203,7 @@
             "paragraph": "We gave Mary the ability to add Darragh and his siblings to her account, so that they could all have visibility over her account, and ensure financial transparency within the family.",
             "image": "../assets/final/Establish-3rd-party_1.png",
             "imgAltText":"Image of the 'Your Trusted People' section of the app",
+            "mobileImg": "../assets/final/mobile/Establish-3rd-party_1.png",
             "bleedToEdge": false,
             "maxHeight":"450px"
         },
@@ -199,6 +213,7 @@
             "paragraph": "Mary could set what permissions Darragh and his siblings had on her account. She could do this quickly within the app, without having to call the bank or travel into the branch in the next town over.",
             "image": "../assets/final/UB-bottom.png",
             "imgAltText":"",
+            "mobileImg": "../assets/final/mobile/UB-bottom.png",
             "bleedToEdge": false,
             "maxHeight":"296px"
         }
@@ -210,6 +225,7 @@
         "description": "A small charity set up to alleviate poverty in India with a particular focus on Calcutta",
         "img": "../assets/final/BeKind_1.png",
         "imgAltText":"Image of the be kind homepage",
+        "mobileImg": "../assets/final/mobile/BeKind_1.png",
         "imageFlexOrder": 1,
         "summaryFlexOrder": 2,
         "button": "Learn more",
@@ -234,6 +250,7 @@
             "paragraph": "Users* found it hard to navigate through the site and some of the content was only accessible through the homepage. We set about pulling apart the information on the site, and putting it together again in a way that was predictable and easy to navigate through.",
             "image": "../assets/final/BeKind-wireframes.png",
             "imgAltText":"",
+            "mobileImg": "../assets/final/mobile/BeKind-wireframes.png",
             "bleedToEdge": true,
             "maxHeight":"1100px",
             "asterisk" :"*The project team acted as users here as the project was time-limited."
@@ -244,6 +261,7 @@
             "paragraph": "The headings on the main navigation were not intuitive for users and the website had acronyms that the user couldn’t possibly understand. We set about relabelling the headings, while looping in with the client and our content strategists to understand the context and importance these labels held.",
             "image": "../assets/final/BeKind-labels-1.png",
             "imgAltText":"",
+            "mobileImg": "../assets/final/mobile/BeKind-labels-1.png",
             "bleedToEdge": false,
             "maxHeight":"450px"
         },
@@ -253,6 +271,7 @@
             "paragraph": "BeKind had really good photography and videos scattered through the site, but they wasn’t given much prominence on each page, and some of the videos were quite small. We lifted the importance of this content, and gave it a more consistent look and feel throughout the site.",
             "image": "../assets/final/Be-kind-wireframes-2.jpg",
             "imgAltText":"",
+            "mobileImg": "../assets/final/mobile/Be-kind-wireframes-2.jpg",
             "bleedToEdge": true,
             "maxHeight":"900px"
         }
@@ -264,6 +283,7 @@
         "description": "A fitness studio based in North Carolina focused on female strength and power.",
         "img": "../assets/final/HSM-front-page-1.png",
         "imgAltText":"Image of the Hillliad Studio Method mobile app home page",
+        "mobileImg": "../assets/final/mobile/HSM-front-page-1.png",
         "imageFlexOrder": 2,
         "summaryFlexOrder": 1,
         "button": "Learn more",
@@ -288,6 +308,7 @@
             "paragraph": "The website combines large-scale photography with clean lines and a strong video presence to create an interactive experience for the user. The choice of typography reflects the structure and form of HSM’s clients, trainers and company ethos.",
             "image": "../assets/final/Macbook-hsm2.png",
             "imgAltText":"Image of website homepage",
+            "mobileImg": "../assets/final/mobile/Macbook-hsm2.png",
             "bleedToEdge": false,
             "maxHeight":"1100px",
             "backgroundGradient": "#E7F3F8"
@@ -298,6 +319,7 @@
             "paragraph": "The website redesign aims to reflect and elevate the company’s vision. The logo was redesigned to allow a more modern look, and the imagery that Hilliard Studio Method already had was given more prominence.",
             "image": "../assets/final/Macbook-hsm-3 copy.png",
             "imgAltText":"",
+            "mobileImg": "../assets/final/mobile/Macbook-hsm-3 copy.png",
             "bleedToEdge": false,
             "maxHeight":"700px",
             "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F8F8F8 100%)"

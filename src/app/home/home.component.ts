@@ -1,4 +1,4 @@
-import { Component, OnInit, OnChanges, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnChanges, OnDestroy, HostListener } from '@angular/core';
 import { ContentService } from '../content.service';
 import { Observable, Subscription } from 'rxjs';
 import { KeyValue } from '@angular/common';
@@ -13,6 +13,12 @@ export class HomeComponent implements OnInit, OnChanges, OnDestroy {
   $content: Observable<any>;
   contentSub: Subscription;
   welfare;
+  desktopImageSource = [];
+  mobileImageSource = [];
+  imageSource = [];
+
+  innerWidth: any;
+
   constructor(private contentService: ContentService)  {
    
   }
@@ -20,13 +26,38 @@ export class HomeComponent implements OnInit, OnChanges, OnDestroy {
   ngOnInit() {
     this.setUpSub(); 
   }
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    this.innerWidth = window.innerWidth;
+    this.setImgSrc();     
+  }
+
+  setImgSrc () {
+    if(this.innerWidth > 660) {
+      this.imageSource = this.desktopImageSource;
+    }
+    else {
+      this.imageSource = this.mobileImageSource;
+    }
+  }
+
+  getimageSrc(index) {
+    return this.innerWidth > 660 ? this.desktopImageSource[index-1] : this.mobileImageSource[index-1];
+  }
 
   public setUpSub(){
     this.$content = this.contentService.getCurrentContentMapEmitter();
     this.contentSub = this.$content.subscribe( (data: any) => { 
       
       this.content = data;
-      
+
+      data.forEach( item => {
+        this.desktopImageSource[item.index-1] = item.img; 
+        this.mobileImageSource[item.index-1] = item.mobileImg;    
+      }); 
+      this.innerWidth = window.innerWidth;
+      this.setImgSrc(); 
+     
     } );
   }
 
@@ -36,9 +67,6 @@ export class HomeComponent implements OnInit, OnChanges, OnDestroy {
 
   ngOnDestroy(){
     this.contentSub.unsubscribe;
-  }
-  getKeys(){ 
-    return Array.from(this.contentService.getContent().keys());
   }
 
   indexOrderAsc = (akv: KeyValue<string, any>, bkv: KeyValue<string, any>): number => {
