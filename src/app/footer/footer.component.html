@@ -1,14 +1,14 @@
 <div class="navBar" id="navBar">
-  <a class="navButton" href="https://www.instagram.com/maireadmurfy/?hl=en" 
+  <a  aria-label="link opens in new tab" class="navButton" href="https://www.instagram.com/maireadmurfy/?hl=en" 
     target="_blank" style="text-decoration: none;">Instagram</a>
   <div *ngIf="isProjectPage" class="previous-next">
-    <button  class="navButton" style="margin-left: 50px;margin-right:25px" 
-      routerLink="/project/{{previousProjectId}}">Previous</button>
-    <button  class="navButton" style="margin-left: 25px;margin-right:50px" 
-      routerLink="/project/{{nextProjectId}}">Next</button>
+    <a  class="navButton" style="margin-left: 50px;margin-right:25px" 
+      routerLink="/project/{{previousProjectId}}">Previous</a>
+    <a  class="navButton" style="margin-left: 25px;margin-right:50px" 
+      routerLink="/project/{{nextProjectId}}">Next</a>
   </div>
   
   <div class= "scroll-to-top" [ngClass]="{'show-scrollTop':windowScrolled}" >
-    <button class="navButton" (click)="scrollToTop()">Up</button>
+    <button aria-label="scrolls user to the top of the page" class="navButton" (click)="scrollToTop()">Up</button>
   </div>
 </div>

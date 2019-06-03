@@ -15,10 +15,7 @@
     line-height: 25px;
     height: 25px;
 
-    background: none;
-    box-sizing: unset;
-    border:none;
-    font-family: CircularStd, sans-serif!important;
+
 }
 .previous-next{
     display: flex;

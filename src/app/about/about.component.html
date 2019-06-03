@@ -2,7 +2,7 @@
     <main>
         <div class="borderSetup">
             <div class="x-wrapper">
-                <div class="x-icon" [routerLink]="'/home'"></div>
+                <a class="x-icon" [routerLink]="'/home'"  aria-label="navigates to home page"></a>
             </div>
             <div style="display:flex;flex-direction: row;height:100%;justify-content:center;">
                 <img [alt]="content.section1.imgAltText" class="aboutImage" style="box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);border-radius: 3px;margin-right:58px;"
@@ -16,17 +16,17 @@
                     <div class="span">
                         <p>{{content.section1.paragraph3}}</p>
 
-                        <a href="{{content.section1.span1Link}}" target="_blank" style="text-decoration: underline;color:white;">
+                        <a  aria-label="opens linked-in in new tab" href="{{content.section1.span1Link}}" target="_blank" style="text-decoration: underline;color:white;">
                             <p>{{content.section1.span1}}</p>
                         </a>
                         <p>{{content.section1.span2}}</p>
 
-                        <a href="{{content.section1.span3Link}}" target="_blank" style="text-decoration: underline;color:white;">
+                        <a aria-label="downloads cv"  href="{{content.section1.span3Link}}" target="_blank" style="text-decoration: underline;color:white;">
                             <p>{{content.section1.span3}}</p>
                         </a>
 
                         <p>{{content.section1.span4}}</p>
-                        <a href="{{content.section1.span5Link}}" target="_blank" style="text-decoration: underline;color:white;">
+                        <a  aria-label="opens instagram in new tab" href="{{content.section1.span5Link}}" target="_blank" style="text-decoration: underline;color:white;">
                             <p>{{content.section1.span5}}</p>
                         </a>
                     </div>

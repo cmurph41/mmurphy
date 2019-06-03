@@ -12,7 +12,7 @@
       </div>
     </div>
     <div *ngIf="content.intro.button">
-      <a href="{{content.intro.buttonLink}}" target="_blank" style="text-decoration: none;">
+      <a aria-label="link opens in new tab" href="{{content.intro.buttonLink}}" target="_blank" style="text-decoration: none;">
         <app-button [buttonText]="content.intro.button"></app-button>
       </a>
     </div>

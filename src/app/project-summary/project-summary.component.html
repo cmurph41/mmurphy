@@ -5,7 +5,7 @@
     <h2><div class="role"> {{ content.role | uppercase }} </div></h2>
     <p><div class="summary"> {{ content.description }} </div>
   </div>
-  <div style="display: inline-block;margin-bottom: 25px; " class="outline" routerLink="/project/{{id}}" *ngIf="content.button">
+  <a style="display: inline-block;margin-bottom: 25px; " class="outline" routerLink="/project/{{id}}" *ngIf="content.button">
     <app-button [buttonText]="content.button"></app-button>
-  </div>
+  </a>
 </div>
