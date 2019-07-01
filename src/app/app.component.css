@@ -5,6 +5,7 @@
     padding-right:10%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    white-space: pre-wrap;
 }
 
 
