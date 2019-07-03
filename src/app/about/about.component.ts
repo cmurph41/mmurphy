@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { ContentService } from '../content.service';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-about',
@@ -19,7 +21,7 @@ export class AboutComponent implements OnInit {
   loaded = false;
 
   constructor(private route: ActivatedRoute, private contentService: ContentService) { 
-    
+  
    }
 
   ngOnInit() { 
@@ -43,7 +45,10 @@ export class AboutComponent implements OnInit {
 
   ngOnDestroy(){     
     this.contentSub.unsubscribe;
-
   }
+
+
+  
+
 
 }

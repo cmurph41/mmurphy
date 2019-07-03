@@ -7,7 +7,8 @@
     margin-right:10%;
 }
 .paragraph{
-    padding-bottom:24px;    
+    padding-bottom:24px; 
+    /* max-width:450px;    */
 }
 .subheader{
     padding-bottom:16px;
@@ -32,7 +33,7 @@
     max-width: 100%;
     max-height: 100%;
 }
-@media (max-width:660px) {
+@media (max-width:770px) {
     .fix-margin {
         margin-left:2.5%!important;
         margin-right:2.5%!important;

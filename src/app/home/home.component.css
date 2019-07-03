@@ -31,7 +31,7 @@
     padding-bottom: 200px;
 }
 
- @media (max-width: 660px)
+ @media (max-width: 770px)
 {
     .content-tile {
         flex-flow:column!important;

@@ -46,12 +46,12 @@
 
 .section-1 {
     margin-right:45px;
-    max-width:350px;
+    max-width:450px;
 
 }
 .section-2 {
     margin-left:45px;
-    max-width:350px;
+    max-width:450px;
 }
 
 .final-section {
@@ -60,10 +60,10 @@
 
 .final-paragraph {
     max-width:550px;
-    margin-bottom:100px;
+    margin-bottom:50px;
 }
 
-@media (max-width:660px) {
+@media (max-width:770px) {
     .fix-margin {
         margin-left:2.5%!important;
         margin-right:2.5%!important;

@@ -22,7 +22,7 @@
         'margin-bottom':project.value.marginBottom,
         'justify-content': (project.value.imageFlexOrder===1)?'flex-start':'flex-end', 
         'max-height': project.value.maxHeight }">
-            <div [ngClass]="(project.value.marginTop)? 'img-media':''">
+            <div [ngClass]="(project.value.marginTop)? 'img-media':''" [ngStyle]="{'max-height': project.value.maxHeight}">
               <img [ngStyle]="{'max-height': project.value.maxHeight}" class="img" [alt]="project.value.imgAltText" 
                 [src]="this.imageSource[(i)]">
             </div>

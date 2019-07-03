@@ -3,7 +3,7 @@
     height: 48px;	
     width: 170px;	
     border-radius: 28px;	
-    background-color: #E53434;
+    background-color: #FD5D44;
 
     color: white;
 
@@ -18,7 +18,7 @@
 
 }
 
-@media (max-width: 660px)
+@media (max-width: 770px)
 {
     .button{
         width:100%;

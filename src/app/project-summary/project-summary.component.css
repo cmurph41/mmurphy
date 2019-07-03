@@ -28,7 +28,7 @@
     line-height: 25px;
 }
 
-@media (max-width: 660px)
+@media (max-width: 770px)
  {
     .summary-wrap{
         width:100%!important;

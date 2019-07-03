@@ -1,9 +1,9 @@
 
 <div id={{id}} [style.width]="content.summaryWidth" class="summary-wrap">
   <div class="text" [style.color]="content.textColor">
-    <h1><div class="project-name"> {{ content.title }} </div></h1>
-    <h2><div class="role"> {{ content.role | uppercase }} </div></h2>
-    <p><div class="summary"> {{ content.description }} </div>
+    <h1><div class="project-name">{{ content.title }}</div></h1>
+    <h2><div class="role">{{ content.role | uppercase }}</div></h2>
+    <p><div class="summary">{{ content.description }}</div>
   </div>
   <a style="display: inline-block;margin-bottom: 25px; " class="outline" routerLink="/project/{{id}}" *ngIf="content.button">
     <app-button [buttonText]="content.button"></app-button>
