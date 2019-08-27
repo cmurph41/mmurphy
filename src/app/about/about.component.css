@@ -16,10 +16,10 @@
 }
 .x-icon {
     color:#FFFFFF;
-    font-size: 28px;
     cursor:pointer;
     display:inline-block;
     width:28px;
+    height: 28px;
     background: url('../../assets/final/close.svg') no-repeat;
 }
 .marginSetup {

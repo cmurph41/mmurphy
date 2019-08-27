@@ -1,51 +1,22 @@
-﻿[
+[
     {
-    "name": "about",
-    "section1": {
-        "subHeader": "Hey, I’m Mairéad, a visual storyteller.",
-        "paragraph1": "I’m passionate about creating intuitive experiences through sleek interfaces and delightful interactions. I focus heavily on investigating user needs and delivering a product or service that matches or exceeds these needs.",
-        "paragraph2": "I also love to play sports (tennis or surfing being top of that list so hit me up for a game/surf) and while eating food can arguably not be called a passion…I will have gladly have that argument over a bit of cheese on a cracker. ",
-        "paragraph3": "You can view more about me on ",
-        "span1": "LinkedIn",
-        "span1Link": "https://www.linkedin.com/in/mair%C3%A9ad-murphy-77443775/",
-        "span2": " or ",
-        "span3": "download my cv here",
-        "span3Link":"",
-        "span4": "… I also have ",
-        "span5": "Instagram.",
-        "span5Link": "https://www.instagram.com/maireadmurfy/?hl=en",
-        "image": "../assets/final/IMG_6775.png",
-        "imgAltText": ""
-    },
-    "section2": {
-        "subHeader": "I do other things too...",
-        "paragraph1": "I’m trying my damndest to stand up on a surf board…and turn. Mostly the standing up part though, it’s hard! I also play tennis and tag rugby—but I’ll really play any kind of sport depending on my surroundings! I’m a big fan of food...so you’ll usually find me devouring a steak or heaping some cheese onto a cracker. "
-    },
-    "section3": {
-        "subHeader": "Experience",
-        "paragraph1": "You can view more on ",
-        "paragraph2": "LinkedIn",
-        "paragraph2link": "https://www.linkedin.com/in/mairéad-murphy-77443775",
-        "paragraph3": "or ",
-        "paragraph4": "download my cv here.",
-        "paragraph4link": "../assets/CV_Mairead_Murphy_2019.pdf",
-        "experience": [
-            {
-                "companyName": "Deloitte Digital",
-                "time": "2017-Now",
-                "title": "UX/UI designer"
-            },
-            {
-                "companyName": "Vision Branding",
-                "time": "2017",
-                "title": "Environmental designer"
-            },
-            {
-                "companyName": "Skaggs Creative",
-                "time": "2016-2017",
-                "title": "Graphic designer"
-            }
-        ]
+        "name": "about",
+        "section1": {
+            "subHeader": "Hey, I’m Mairéad, a visual storyteller.",
+            "paragraph1": "I’m passionate about creating intuitive experiences through sleek interfaces and delightful interactions. I focus heavily on investigating user needs and delivering a product or service that matches or exceeds these needs.",
+            "paragraph2": "I also love to play sports (tennis or surfing being top of that list so hit me up for a game/surf) and while eating food can arguably not be called a passion…I will have gladly have that argument over a bit of cheese on a cracker. ",
+            "paragraph3": "You can view more about me on ",
+            "span1": "LinkedIn",
+            "span1Link": "https://www.linkedin.com/in/mair%C3%A9ad-murphy-77443775/",
+            "span2": " or ",
+            "span3": "have a look at my cv here",
+            "span3Link": "",
+            "span4": "… I also have ",
+            "span5": "Instagram ",
+            "span5Link": "https://www.instagram.com/maireadmurfy/?hl=en",
+            "span6": "and an ",
+            "span7": "email",
+            "span7Link": "mailto:hello@maireadmurphy.com"
+        }
     }
-}
 ]

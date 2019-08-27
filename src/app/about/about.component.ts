@@ -3,6 +3,7 @@ import { Observable, Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { ContentService } from '../content.service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { saveAs } from 'file-saver';
 
 
 @Component({
@@ -19,8 +20,9 @@ export class AboutComponent implements OnInit {
 
   id;
   loaded = false;
+  applicationsUrl = '';
 
-  constructor(private route: ActivatedRoute, private contentService: ContentService) { 
+  constructor(private route: ActivatedRoute, private contentService: ContentService, private http: HttpClient) { 
   
    }
 
@@ -46,9 +48,16 @@ export class AboutComponent implements OnInit {
   ngOnDestroy(){     
     this.contentSub.unsubscribe;
   }
-
-
   
+  downloadFile(){ 
+    let headers = new HttpHeaders({'Accept':'application/pdf'});
+    
+    return this.http.get('../../assets/CV_Mairead_Murphy_2019.pdf',
+     {headers: headers, responseType:'blob'}).subscribe((data)=>{
+       
+       let blob = new Blob([data], {type:'application/pdf'});
+       saveAs(blob, "CV_Mairead_Murphy.pdf");
 
-
+     });
+    }
 }

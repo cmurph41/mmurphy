@@ -2,12 +2,10 @@
     <main>
         <div class="borderSetup">
             <div class="x-wrapper">
-                <a class="x-icon" [routerLink]="'/home'"  aria-label="navigates to home page"></a>
+                <a class="x-icon" [routerLink]="'/home'" aria-label="navigates to home page"></a>
             </div>
             <div style="display:flex;flex-direction: row;height:100%;justify-content:center;">
-                <img [alt]="content.section1.imgAltText" class="aboutImage" style="box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);border-radius: 3px;margin-right:58px;"
-                    height="410px" width="362px" src="{{content.section1.image}}">
-                <div style="display:flex;flex-direction:column;max-width:410px;">
+                <div style="display:flex;flex-direction:column;">
                     <h1>
                         <div class="subheader" style="color:white;padding-bottom:23px;">{{content.section1.subHeader}}</div>
                     </h1>
@@ -16,18 +14,22 @@
                     <div class="span">
                         <p>{{content.section1.paragraph3}}</p>
 
-                        <a  aria-label="opens linked-in in new tab" href="{{content.section1.span1Link}}" target="_blank" style="text-decoration: underline;color:white;">
+                        <a aria-label="opens linked-in in new tab" href="{{content.section1.span1Link}}" target="_blank" style="text-decoration: underline;color:white;">
                             <p>{{content.section1.span1}}</p>
                         </a>
                         <p>{{content.section1.span2}}</p>
 
-                        <a aria-label="downloads cv"  href="{{content.section1.span3Link}}" download target="_self" style="text-decoration: underline;color:white;">
+                        <a style="text-decoration: underline;color:white;" target="_blank" aria-label="downloads cv" aria-label="downloads cv" (click)="downloadFile()">
                             <p>{{content.section1.span3}}</p>
                         </a>
 
                         <p>{{content.section1.span4}}</p>
-                        <a  aria-label="opens instagram in new tab" href="{{content.section1.span5Link}}" target="_blank" style="text-decoration: underline;color:white;">
+                        <a aria-label="opens instagram in new tab" href="{{content.section1.span5Link}}" target="_blank" style="text-decoration: underline;color:white;">
                             <p>{{content.section1.span5}}</p>
+                        </a>
+                        <p>{{content.section1.span6}}</p>
+                        <a aria-label="opens instagram in new tab" href="{{content.section1.span7Link}}" target="_blank" style="text-decoration: underline;color:white;">
+                            <p>{{content.section1.span7}}</p>
                         </a>
                     </div>
                 </div>

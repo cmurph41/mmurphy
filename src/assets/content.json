@@ -10,12 +10,12 @@
         "imageFlexOrder": 1,
         "summaryFlexOrder": 2,
         "button": "Learn more",
-        "textColor": "#ffffff",
+        "textColor": "#231F20",
         "summaryWidth": "270px",
         "index": 1,
-        "backgroundGradient": "linear-gradient(222.36deg, #0F087C 0%, #09063B 100%)",
-        "marginTop":"",
-        "marginBottom":"-10px",
+        "backgroundGradient": "linear-gradient(222.36deg, #FFFAFA 0%, #FFFAFA 100%)",
+        "marginTop":"100px",
+        "marginBottom":"-4px",
         "maxHeight": "890px",
         "projectTemplate": "template1",
         "intro": {
@@ -32,7 +32,7 @@
             "image": "../assets/final/MyWelfare_001-MacBook-Silver.png",
             "imgAltText":"Image of My Welfare parents, children and family page",
             "mobileImg": "../assets/final/mobile/MyWelfare_001-MacBook-Silver.png",
-            "bleedToEdge": true,
+            "bleedToEdge": false,
             "maxHeight":"690px"
         },
         "section2": {
@@ -53,57 +53,7 @@
             "imgAltText":"Image of My Welfare pension and home pages",
             "mobileImg": "../assets/final/mobile/MyWelfare-clay-desktop2.png",
             "bleedToEdge": false,
-            "maxHeight":"500px"
-        }
-    },
-    {
-        "name": "bioeffect",
-        "title": "BioEffect skincare",
-        "role": "Brand book",
-        "description": "The story and background behind the Icelandic scientific skincare company BioEffect - founded when three geneticists found a way to create an anti-aging serum using barley.",
-        "img": "../assets/final/Bio_Mockup_2.2.png",
-        "imgAltText":"Image of Bio Effect book",            
-        "mobileImg": "../assets/final/mobile/Bio_Mockup_2.2.png",
-        "imageFlexOrder": 2,
-        "summaryFlexOrder": 1,
-        "button": "Learn more",
-        "textColor": "#231F20",
-        "summaryWidth": "270px",
-        "marginTop":"",
-        "marginBottom":"0px",
-        "maxHeight": "1200px",
-        "index": 2,
-        "projectTemplate": "template2",
-        "intro": {
-            "title": "BioEffect skincare",
-            "subheader": "A book that tells the story of BioEffect: an Icelandic skincare brand built through science, not beauty.",
-            "paragraph": "Recently breaking into the US market, Icelandic skincare brand BioEffect has been growing into an international household name. The company is currently growing its brand, and reaching out to influencers in the skincare market."
-        },
-        "section1": {
-            "number": "01",
-            "header": "The book",
-            "paragraph": "The brand book tells the story of BioEffect. It takes the reader through BioEffect’s scientific conception, to their emergence in the skincare sector. BioEffect radiates purity, and the brand book was designed with this in mind.",
-            "image": "../assets/final/Bio_Mockup_3.png",
-            "mobileImg": "../assets/final/mobile/Bio_Mockup_3.png",
-            "imgAltText":"",
-            "bleedToEdge": false,
-            "maxHeight":"1500px",
-            "backgroundGradient": "linear-gradient(135deg, #272D35 0%, #839BA7 100%)",
-            "textColor": "#ffffff"
-
-        },
-        "section2": {
-            "number": "02",
-            "header": "Iceland at its heart",
-            "paragraph": "The design features Icelandic landscapes and combines the rustic nature of the country with the clarity of the ground-breaking product that came out of it.",
-            "image": "../assets/final/Bio_Mockup_1.png",
-            "mobileImg": "../assets/final/mobile/Bio_Mockup_1.png",
-            "imgAltText":"",
-            "bleedToEdge": false,
-            "maxHeight":"1500px",
-            "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F2F2F2 100%)",
-            "textColor": "#231F20"
-
+            "maxHeight":"1100px"
         }
     },
     {
@@ -114,16 +64,16 @@
         "img": "../assets/final/Group.png",
         "imgAltText":"Image of the My Welfare Creation Kit design system",
         "mobileImg": "../assets/final/mobile/Group.png",
-        "imageFlexOrder": 1,
-        "summaryFlexOrder": 2,
+        "imageFlexOrder": 2,
+        "summaryFlexOrder": 1,
         "button": "Learn more",
         "textColor": "#231F20",
         "summaryWidth": "270px",
         "marginTop":"0px",
         "marginBottom":"0px",
-        "maxHeight": "700px",
-        "index": 3,
-        "backgroundGradient": "linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%)",
+        "maxHeight": "976px",
+        "index": 2,
+        "backgroundGradient": "linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%)",
         "transformGradient": "scaleY(-1)",
         "projectTemplate": "template1",
         "intro": {
@@ -138,7 +88,7 @@
             "image": "../assets/final/Getting Started.png",
             "imgAltText":"Image of the My Welfare Creation Kit home page",
             "mobileImg": "../assets/final/mobile/Getting Started.png",
-            "bleedToEdge": true,
+            "bleedToEdge": false,
             "maxHeight":"1100px"
         },
         "section2": {
@@ -148,7 +98,7 @@
             "image": "../assets/final/Active claim card notifications.png",
             "imgAltText":"Image of the Job Seekers Payment page",
             "mobileImg": "../assets/final/mobile/Active claim card notifications.png",
-            "bleedToEdge": false,
+            "bleedToEdge": true,
             "maxHeight":"500px"
         },
         "section3": {
@@ -158,7 +108,7 @@
             "image": "../assets/final/CreationKit-typography.png",
             "imgAltText":"Image of the My Welfare Creation Kit Typography",
             "mobileImg": "../assets/final/mobile/CreationKit-typography.png",
-            "bleedToEdge": false,
+            "bleedToEdge": true,
             "maxHeight":"1100px"
         }
     },
@@ -171,16 +121,16 @@
         "imgAltText":"Image of the money management mobile app, showing the ability to change the permissions on who can see account information",
         "mobileImg": "../assets/final/mobile/UB_phone_1.png",
         "imgOrientation": "portrait",
-        "imageFlexOrder": 2,
-        "summaryFlexOrder": 1,
+        "imageFlexOrder": 1,
+        "summaryFlexOrder": 2,
         "button": "Learn more",
         "textColor": "#ffffff",
         "summaryWidth": "295px",
-        "marginTop":"0px",
-        "marginBottom":"0px",
-        "maxHeight": "615px",
-        "index": 4,
-        "backgroundGradient": "linear-gradient(217.93deg,  #A00404 0%,  #B1179E 100%)",
+        "marginTop":"100px",
+        "marginBottom":"100px",
+        "maxHeight": "900px",
+        "index": 3,
+        "backgroundGradient": "linear-gradient(217.93deg,  #A1B5D8 0%,  #A1B5D8 100%)",
         "projectTemplate": "template1",
         "intro": {
             "title": "Ulster Bank Hackathon money management tool",
@@ -214,67 +164,59 @@
             "image": "../assets/final/UB-bottom.png",
             "imgAltText":"",
             "mobileImg": "../assets/final/mobile/UB-bottom.png",
-            "bleedToEdge": false,
-            "maxHeight":"296px"
+            "bleedToEdge": true,
+            "maxHeight":"1100px"
         }
     },
     {
-        "name": "be-kind",
-        "title": "BeKind",
-        "role": "UX Exploratory",
-        "description": "A small charity set up to alleviate poverty in India with a particular focus on Calcutta",
-        "img": "../assets/final/BeKind_1.png",
-        "imgAltText":"Image of the be kind homepage",
-        "mobileImg": "../assets/final/mobile/BeKind_1.png",
-        "imageFlexOrder": 1,
-        "summaryFlexOrder": 2,
+        "name": "bioeffect",
+        "title": "BioEffect skincare",
+        "role": "Brand book",
+        "description": "The story and background behind the Icelandic scientific skincare company BioEffect - founded when three geneticists found a way to create an anti-aging serum using barley.",
+        "img": "../assets/final/Bio_Mockup_2.2.png",
+        "imgAltText":"Image of Bio Effect book",            
+        "mobileImg": "../assets/final/mobile/Bio_Mockup_2.2.png",
+        "imageFlexOrder": 2,
+        "summaryFlexOrder": 1,
         "button": "Learn more",
         "textColor": "#231F20",
         "summaryWidth": "270px",
-        "marginTop":"0px",
+        "marginTop":"",
         "marginBottom":"0px",
         "maxHeight": "1200px",
-        "index": 5,
-        "projectTemplate": "template1",
-        
+        "index": 4,
+        "projectTemplate": "template2",
         "intro": {
-            "title": "BeKind",
-            "subheader": "A small charity set up to alleviate poverty in India. ",
-            "paragraph": "BeKind wanted to better engage with their supporters and generate more donations for the charity. To do this they wanted to generate donations through their website. BeKind’s sitemap was confusing, and with a quick review we realised some pages were difficult to find, or hard to navigate to. Our biggest challenge was time: we had one day to do this.",
-            "button": "Visit website",
-            "buttonLink": "https://www.w3schools.com"
+            "title": "BioEffect skincare",
+            "subheader": "A book that tells the story of BioEffect: an Icelandic skincare brand built through science, not beauty.",
+            "paragraph": "Recently breaking into the US market, Icelandic skincare brand BioEffect has been growing into an international household name. The company is currently growing its brand, and reaching out to influencers in the skincare market."
         },
         "section1": {
             "number": "01",
-            "header": "Information Architecture",
-            "paragraph": "Users* found it hard to navigate through the site and some of the content was only accessible through the homepage. We set about pulling apart the information on the site, and putting it together again in a way that was predictable and easy to navigate through.",
-            "image": "../assets/final/BeKind-wireframes.png",
+            "header": "The book",
+            "paragraph": "The brand book tells the story of BioEffect. It takes the reader through BioEffect’s scientific conception, to their emergence in the skincare sector. BioEffect radiates purity, and the brand book was designed with this in mind.",
+            "image": "../assets/final/Bio_Mockup_3.png",
+            "mobileImg": "../assets/final/mobile/Bio_Mockup_3.png",
             "imgAltText":"",
-            "mobileImg": "../assets/final/mobile/BeKind-wireframes.png",
-            "bleedToEdge": true,
-            "maxHeight":"1100px",
-            "asterisk" :"*The project team acted as users here as the project was time-limited."
+            "bleedToEdge": false,
+            "maxHeight":"1500px",
+            "backgroundGradient": "linear-gradient(135deg, #272D35 0%, #839BA7 100%)",
+            "textColor": "#ffffff"
+
         },
         "section2": {
             "number": "02",
-            "header": "Label audit",
-            "paragraph": "The headings on the main navigation were not intuitive for users and the website had acronyms that the user couldn’t possibly understand. We set about relabelling the headings, while looping in with the client and our content strategists to understand the context and importance these labels held.",
-            "image": "../assets/final/BeKind-labels-1.png",
+            "header": "Iceland at its heart",
+            "paragraph": "The design features Icelandic landscapes and combines the rustic nature of the country with the clarity of the ground-breaking product that came out of it.",
+            "image": "../assets/final/Bio_Mockup_1.png",
+            "mobileImg": "../assets/final/mobile/Bio_Mockup_1.png",
             "imgAltText":"",
-            "mobileImg": "../assets/final/mobile/BeKind-labels-1.png",
             "bleedToEdge": false,
-            "maxHeight":"450px"
-        },
-        "section3": {
-            "number": "03",
-            "header": "Re-prioritisation of content",
-            "paragraph": "BeKind had really good photography and videos scattered through the site, but they wasn’t given much prominence on each page, and some of the videos were quite small. We lifted the importance of this content, and gave it a more consistent look and feel throughout the site.",
-            "image": "../assets/final/Be-kind-wireframes-2.jpg",
-            "imgAltText":"",
-            "mobileImg": "../assets/final/mobile/Be-kind-wireframes-2.jpg",
-            "bleedToEdge": true,
-            "maxHeight":"900px"
+            "maxHeight":"1500px",
+            "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F2F2F2 100%)",
+            "textColor": "#231F20"
         }
+    
     },
     {
         "name": "hilliard-studio-method",
@@ -284,16 +226,16 @@
         "img": "../assets/final/HSM-front-page-1.png",
         "imgAltText":"Image of the Hillliad Studio Method mobile app home page",
         "mobileImg": "../assets/final/mobile/HSM-front-page-1.png",
-        "imageFlexOrder": 2,
-        "summaryFlexOrder": 1,
+        "imageFlexOrder": 1,
+        "summaryFlexOrder": 2,
         "button": "Learn more",
-        "textColor": "#ffffff",
+        "textColor": "#231F20",
         "summaryWidth": "270px",
-        "marginTop":"",
-        "marginBottom":"0px",
-        "maxHeight": "660px",
-        "index": 6,
-        "backgroundGradient": "linear-gradient(226.05deg, #FA7B80 0%, #E7319D 100%)",
+        "marginTop":"100px",
+        "marginBottom":"-4px",
+        "maxHeight": "1585px",
+        "index": 5,
+        "backgroundGradient": "linear-gradient(226.05deg, #FFECB5 0%, #FFECB5 100%)",
         "projectTemplate": "template3",
         "intro": {
             "title": "Hilliard Studio Method",
@@ -309,9 +251,9 @@
             "image": "../assets/final/Macbook-hsm2.png",
             "imgAltText":"Image of website homepage",
             "mobileImg": "../assets/final/mobile/Macbook-hsm2.png",
-            "bleedToEdge": false,
-            "maxHeight":"1100px",
-            "backgroundGradient": "#E7F3F8"
+            "bleedToEdge": true,
+            "maxHeight":"900px",
+            "backgroundGradient": "#D6E4E7"
         },
         "section2": {
             "number": "02",
@@ -322,7 +264,7 @@
             "mobileImg": "../assets/final/mobile/Macbook-hsm-3 copy.png",
             "bleedToEdge": false,
             "maxHeight":"700px",
-            "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F8F8F8 100%)"
+            "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F2F2F2 100%)"
 
         }
     }
