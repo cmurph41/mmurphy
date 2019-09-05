@@ -77,7 +77,7 @@
         "transformGradient": "scaleY(-1)",
         "projectTemplate": "template1",
         "intro": {
-            "title": "MyWelfare",
+            "title": "MyWelfare CreationKit",
             "subheader": "The design system which builds consistency and efficiency into all MyWelfare services.",
             "paragraph": "The CreationKit is the design system behind MyWelfare. It is a single source of truth which builds consistency and efficiency into all MyWelfare services. \n\nWhile rules and rationales were created when designing MyWelfare, they were not written down. All patterns and guidelines needed to be identified and brought to life in a way that would help designers and developers iterate and add to as the site grows. "
         },
@@ -145,7 +145,7 @@
             "imgAltText":"Image of the person created: Mary, pensioner from Fermoy, Cork",
             "mobileImg": "../assets/final/mobile/Persona-Mary.png",
             "bleedToEdge": false,
-            "maxHeight":"520px"
+            "maxHeight":"800px"
         },
         "section2": {
             "number": "02",
@@ -155,7 +155,7 @@
             "imgAltText":"Image of the 'Your Trusted People' section of the app",
             "mobileImg": "../assets/final/mobile/Establish-3rd-party_1.png",
             "bleedToEdge": false,
-            "maxHeight":"450px"
+            "maxHeight":"800px"
         },
         "section3": {
             "number": "03",
@@ -252,7 +252,7 @@
             "imgAltText":"Image of website homepage",
             "mobileImg": "../assets/final/mobile/Macbook-hsm2.png",
             "bleedToEdge": true,
-            "maxHeight":"900px",
+            "maxHeight":"2000px",
             "backgroundGradient": "#D6E4E7"
         },
         "section2": {
@@ -263,7 +263,7 @@
             "imgAltText":"",
             "mobileImg": "../assets/final/mobile/Macbook-hsm-3 copy.png",
             "bleedToEdge": false,
-            "maxHeight":"700px",
+            "maxHeight":"900px",
             "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F2F2F2 100%)"
 
         }

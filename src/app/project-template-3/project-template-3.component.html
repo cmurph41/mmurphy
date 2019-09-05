@@ -22,7 +22,7 @@
     <div style="display:flex;flex-direction: column;" [ngClass]="{'background-tile':  content.section1.backgroundGradient }"
       [ngStyle]="{'background': content.section1.backgroundGradient}">
       <div [ngClass]="(content.section1.backgroundGradient)? 'fix-margin':''" style="margin-top:100px">
-        <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px'}">
+        <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px','margin-left': (content.section1.bleedToEdge)?'-12.5%':'0px'}">
           <img class="img" [ngStyle]="{'max-height': content.section1.maxHeight}" src="{{content.section1.image}}" [alt]="content.section1.imgAltText">
         </div>
         <div style="display:flex; justify-content: flex-start;margin-bottom:80px;margin-top:40px;">
