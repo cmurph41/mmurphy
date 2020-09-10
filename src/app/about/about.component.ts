@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { ContentService } from '../content.service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { saveAs } from 'file-saver';
+import { Location } from '@angular/common';
 
 
 @Component({
@@ -22,8 +23,11 @@ export class AboutComponent implements OnInit {
   loaded = false;
   applicationsUrl = '';
 
-  constructor(private route: ActivatedRoute, private contentService: ContentService, private http: HttpClient) { 
+  constructor(private location: Location, private route: ActivatedRoute, private contentService: ContentService, private http: HttpClient) { 
   
+   }
+   goBack() {
+     this.location.back();
    }
 
   ngOnInit() { 

@@ -12,3 +12,8 @@
     width: 56px;
 
 }
+@media (max-width: 770px) {
+    .home {
+        display:none;
+    }
+}

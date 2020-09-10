@@ -2,10 +2,11 @@
     <main>
         <div class="borderSetup">
             <div class="x-wrapper">
-                <a class="x-icon" [routerLink]="'/home'" aria-label="navigates to home page"></a>
+                <button class="x-icon" aria-label="navigates to home page" (click)="goBack()">Close</button>
             </div>
-            <div style="display:flex;flex-direction: row;height:100%;justify-content:center;">
-                <div style="display:flex;flex-direction:column;">
+            <div>
+                <div style="height:59px;"></div>
+                <div style="display:flex;flex-direction:column;padding-bottom:23px;max-width:805px;">
                     <h1>
                         <div class="subheader" style="color:white;padding-bottom:23px;">{{content.section1.subHeader}}</div>
                     </h1>
@@ -31,6 +32,34 @@
                         <a aria-label="opens instagram in new tab" href="{{content.section1.span7Link}}" target="_blank" style="text-decoration: underline;color:white;">
                             <p>{{content.section1.span7}}</p>
                         </a>
+                    </div>
+                </div>
+            </div>
+            <div class="paragraph hideText" style="margin-top:50px;font-weight:bold;">{{content.section1.logoHeader}}
+            </div>
+            <div style="max-width:7700px;display: flex;flex-direction:row;justify-content: space-between;">
+                <div style="display: flex;flex-direction: column;justify-content: space-between;align-items: flex-start;">
+                    <div class="img-wrapper">
+                        <img class="img" [src]="content.section1.logos[0]">
+                    </div>
+                    <div class="img-wrapper">
+                        <img class="img" [src]="content.section1.logos[1]">
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction: column;justify-content: space-between;align-items: flex-start;">
+                    <div class="img-wrapper">
+                        <img class="img" [src]="content.section1.logos[2]">
+                    </div>
+                    <div class="img-wrapper">
+                        <img class="img" [src]="content.section1.logos[3]">
+                    </div>
+                </div>
+                <div style="display: flex;flex-direction: column;justify-content: space-between;align-items: flex-start;">
+                    <div class="img-wrapper">
+                        <img class="img" [src]="content.section1.logos[4]">
+                    </div>
+                    <div class="img-wrapper">
+                        <img class="img" [src]="content.section1.logos[5]">
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@
 
 @media (max-width: 770px) {
     .app-root{
-        padding-left:2.5%;
-        padding-right:2.5%;
+        padding-left:5%;
+        padding-right:5%;
     }
 }

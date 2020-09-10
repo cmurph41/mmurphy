@@ -3,7 +3,7 @@
         "name": "about",
         "section1": {
             "subHeader": "Hey, I’m Mairéad, a visual storyteller.",
-            "paragraph1": "I’m passionate about creating intuitive experiences through sleek interfaces and delightful interactions. I focus heavily on investigating user needs and delivering a product or service that matches or exceeds these needs.",
+            "paragraph1": "I’m passionate about creating great experiences for the user, through intuitive interfaces and in-depth research. My process focuses heavily on investigating user needs and delivering a product or service that matches these needs and exceeds client expectations.",
             "paragraph2": "I also love to play sports (tennis or surfing being top of that list so hit me up for a game/surf) and while eating food can arguably not be called a passion…I will have gladly have that argument over a bit of cheese on a cracker. ",
             "paragraph3": "You can view more about me on ",
             "span1": "LinkedIn",
@@ -12,11 +12,20 @@
             "span3": "have a look at my cv here",
             "span3Link": "",
             "span4": "… I also have ",
-            "span5": "Instagram ",
+            "span5": "Instagram",
             "span5Link": "https://www.instagram.com/maireadmurfy/?hl=en",
-            "span6": "and an ",
-            "span7": "email",
-            "span7Link": "mailto:hello@maireadmurphy.com"
+            "span6": "… If all else fails, feel free to drop me an ",
+            "span7": "email!",
+            "span7Link": "mailto:hello@maireadmurphy.com",
+            "logoHeader": "Selected clients that I've worked with", 
+            "logos": [
+                "../assets/about/SocialProtection_MARK_MASTER_Std_Colour.png",
+                "../assets/about/garda.png",
+                "../assets/about/UB-logo.svg",
+                "../assets/about/BIOEFFECT_logo_made_in_iceland.svg",
+                "../assets/about/Charlotte-Tilbury-Logo.svg",
+                "../assets/about/Veselka-logo.png"
+            ]
         }
     }
 ]

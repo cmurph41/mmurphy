@@ -19,8 +19,12 @@
     </div>
   </section>
   <div class="mobile-spacer" style="height:143px"></div>
-  <section>
-    <div class="flex-section">
+  <section [ngClass]="{'background-tile': content.section1.backgroundGradient }" [ngStyle]="{'background': content.section1.backgroundGradient, 
+    'transform': content.section1.transformGradient, 'max-height': content.section1.maxWithMargin  }">
+    <div [ngClass]="(content.section1.backgroundGradient)?
+        'fix-margin flex-section':'flex-section'"   [ngStyle]="{'padding-top': content.section1.marginTop, 
+        'padding-bottom':content.section1.marginBottom}"
+       >
       <div class="flex-section-paragraph section-1">
         <h2>
           <div class="subheader">{{content.section1.header}}</div>
@@ -32,14 +36,17 @@
           <p>{{content.section1.asterisk}}</div>
       </div>
       <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px', 
-  'justify-content': 'flex-end'}">
+      'justify-content': 'flex-end'}">
         <img class="img" [ngStyle]="{'max-height': content.section1.maxHeight}" [src]="this.imageSource[1]" [alt]="content.section1.imgAltText">
       </div>
     </div>
   </section>
   <div class="mobile-spacer" style="height:200px"></div>
-  <section>
-    <div class="flex-section">
+  <section [ngClass]="{'background-tile': content.section2.backgroundGradient }" [ngStyle]="{'background': content.section2.backgroundGradient, 
+  'transform': content.section2.transformGradient, 'max-height': content.section2.maxWithMargin  }">
+    <div  [ngClass]="(content.section2.backgroundGradient)?
+    'fix-margin flex-section':'flex-section'"   [ngStyle]="{'padding-top': content.section2.marginTop, 
+    'padding-bottom':content.section2.marginBottom}">
       <div class="img-wrapper" [ngStyle]="{'margin-left': (content.section2.bleedToEdge)?'-12.5%':'0px', 
     'justify-content': 'flex-start'}">
         <img class="img" [ngStyle]="{'max-height': content.section2.maxHeight}" [src]="this.imageSource[2]" [alt]="content.section2.imgAltText">
@@ -54,10 +61,13 @@
       </div>
 
     </div>
-  </section>
-  <div class="mobile-spacer" style="height:80px"></div>
-  <section>
-    <div class="flex-section-paragraph final-section">
+  </section >
+  <div class="mobile-spacer" style="height:200px"></div>
+  <section [ngClass]="{'background-tile': content.section3.backgroundGradient }" [ngStyle]="{'background': content.section3.backgroundGradient, 
+  'transform': content.section3.transformGradient, 'max-height': content.section3.maxWithMargin  }">
+    <div class="flex-section-paragraph final-section" [ngClass]="(content.section3.backgroundGradient)?
+    'fix-margin':''"   [ngStyle]="{'padding-top': content.section3.marginTop, 
+    'padding-bottom':content.section3.marginBottom}">
       <div class="final-paragraph">
         <h2>
           <div class="subheader centerText">{{content.section3.header}}</div>

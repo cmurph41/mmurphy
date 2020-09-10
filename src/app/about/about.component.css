@@ -10,53 +10,85 @@
     display: inline;
 }
 .borderSetup {
-    margin-left: 16.5%;
-    margin-right:16.5%;
-    padding-top:40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top:50px;
+    padding-right: 14px;
 }
 .x-icon {
     color:#FFFFFF;
     cursor:pointer;
     display:inline-block;
-    width:28px;
-    height: 28px;
-    background: url('../../assets/final/close.svg') no-repeat;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    height: 25px;
+    width: 56px;
 }
 .marginSetup {
     margin-left:-12.5%;
     margin-right:-12.5%;
     background-color: #FD5D44;
-    height: 100vh;
+    min-height: 100vh; 
 }
 .x-wrapper {
     display:flex;
     justify-content:flex-end;
     height: 28px;
 }
+
+.img-wrapper {
+    flex:auto;
+    align-self:center;
+    display: flex;
+    align-items: center;
+    margin-bottom:25px;
+
+}
+.img {
+    object-fit: contain;
+    max-height:100px; 
+    max-width:200px; 
+}
+
+
+@media (max-width: 900px)
+{
+    .img-wrapper {
+        display: none;
+    }
+    .hideText {
+        display: none;
+    }
+
+}
+
 @media (max-width: 770px)
-
-
 {
     .marginSetup{
-        margin-left:-2.632%!important; /*2.5/95*/
-        margin-right:-2.632%!important;
+        margin-left:-5.55%!important; /*5/90*/
+        margin-right:-5.55%!important;
     }
 
     .aboutImage {
         display:none!important;
     }
     .borderSetup {
-        margin-left: 2.5%!important;
-        margin-right:2.5%!important;
-        padding-top:0px!important;
+        margin-left: 5%!important;
+        margin-right:5%!important;
+        padding-top:40px!important;
 
-    }
-    .marginSetup {
-        
-        /* height: auto!important; */
     }
     .x-wrapper {
         padding-bottom: 10px;
         padding-top: 10px;
+    }
+    .img-wrapper {
+        display: none;
+    }
+    .hideText {
+        display: none;
     }
 }

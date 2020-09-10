@@ -24,10 +24,29 @@
     justify-content: center;
 }
 
-@media(max-width:660px) {
-    .scroll-to-top {
+.prev {
+    margin-left: 50px;
+    margin-right:25px;
+}
+.next {
+    margin-left: 25px;
+    margin-right:50px;
+}
+
+@media(max-width:770px) {
+    .change-footer{
         display:none;
     }
     .previous-next{
+        justify-content: space-between;
+    }
+    
+    .prev {
+        margin-left: 0px;
+        margin-right:25px;
+    }
+    .next {
+        margin-left: 25px;
+        margin-right:0px;
     }
 }

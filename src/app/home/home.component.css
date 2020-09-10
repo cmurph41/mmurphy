@@ -42,32 +42,33 @@
         margin-right: 0px!important;
         margin-left: 0px!important; 
         margin-bottom:0px!important;
+        padding-bottom:30px!important;
         margin-top:20px!important;
         justify-content: center!important; 
-        max-height: 300px!important;  
+        max-height: 600px!important;  /*was 400*/
     }
     .proj-summary-component-wrapper {
         order:2!important;
         margin-right: 0px!important;
         margin-left: 0px!important; 
         justify-content: center!important; 
-        max-height: 300px!important;  
+        max-height: 600px!important;  /*was 400*/
     }
     .img {
         object-fit: contain;
         max-width: 100%;
-        max-height: 300px!important;
+        max-height: 600px!important; /*was 400*/
     }
     .background-tile{
-        height: 630px!important;  
+        max-height: 1050px!important;  /*was height 750*/
         max-height: none!important;
-        margin-left:-2.632%!important; /*2.5/95*/
-        margin-right:-2.632%!important;
+        margin-left:-5.55%!important; /*5/90*/
+        margin-right:-5.55%!important;
 
     }
     .fix-margin {
-        margin-left:2.5%!important;
-        margin-right:2.5%!important;
+        margin-left:5%!important;
+        margin-right:5%!important;
     }
     .tile-wrapper {
         /* height: 600px!important; */
@@ -75,7 +76,7 @@
 
     }
     .spacer {
-        padding-bottom: 50px!important;
+        padding-bottom: 75px!important;/*was 50*/
     }
     .img-media {
         margin-top:-10px!important;

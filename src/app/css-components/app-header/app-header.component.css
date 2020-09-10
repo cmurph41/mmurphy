@@ -5,7 +5,9 @@
     display: inline-block;
     cursor: pointer;
 }
-.logo:hover {
-    cursor: pointer;
-    background: url("../../../assets/Mairead-logo-hover-02.svg") no-repeat;
+@media(min-width:770px) {
+    .logo:hover {
+        cursor: pointer;
+        background: url("../../../assets/Mairead-logo-hover-02.svg") no-repeat;
+    }
 }

@@ -20,40 +20,121 @@
         "projectTemplate": "template1",
         "intro": {
             "title": "MyWelfare",
-            "subheader": "The online home for social welfare services in Ireland.",
-            "paragraph": "Welfare services are used by every Irish citizen at some point in their lives, usually at a difficult or stressful time. Because our user base is so broad and the frequency of use is diverse, our product needs to be accessible and easy to use by everyone. \n\nUsers were finding the old MyWelfare platform difficult to use and were not able to find what they were looking for. In addition, it was not scalable for the addition of new services by the business.",
+            "subheader": "The online home for social welfare services for every Irish citizen.",
+            "paragraph": "Welfare services are used by everyone at some point in their lives, usually at a difficult or stressful time. Users found the old MyWelfare platform difficult to use as they were being blocked by a login wall. This meant that they were not able to find what they were looking for, or browse through any of the available services. In addition, the old site was not scalable for the addition of new services by the business.",
             "button": "Visit website",
-            "buttonLink": "https://services.mywelfare.ie/"
+            "buttonLink": "https://services.mywelfare.ie/",
+            "backgroundGradient": "linear-gradient(222.36deg, #FFFAFA 0%, #FFFAFA 100%)",
+            "marginTop":"100px",
+            "marginBottom":"-4px"
         },
         "section1": {
             "number": "01",
             "header": "A new  CMS",
-            "paragraph": "We interviewed real users and found out what the barriers were to finding and applying for the service they needed. The old MyWelfare site was largely blocked by a login wall, so a lot of users were hitting this login wall and being discouraged from going any further. \n\nWe built a CMS that allows information to be accessible to users without having to login. It pushes the important information to the front of the site, and allows users to browse before applying for their service. It also allows the business to easily update and manage the information on their site.",
+            "paragraph": "I contributed to the design of a CMS that would allow information to be accessible to users without having to login. It pushes the important information to the front of the site, and allows users to browse before applying for their service. It also allows the business to easily update and manage the information on their site.",
             "image": "../assets/final/MyWelfare_001-MacBook-Silver.png",
             "imgAltText":"Image of My Welfare parents, children and family page",
             "mobileImg": "../assets/final/mobile/MyWelfare_001-MacBook-Silver.png",
             "bleedToEdge": false,
-            "maxHeight":"690px"
+            "maxHeight":"690px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         },
         "section2": {
             "number": "02",
             "header": "Information architecture",
-            "paragraph": "We redesigned the information structure of the site through multiple card-sorting exercises where we facilitated the business categorising each service into where they thought it would live. \n\nWe then used guerrilla user testing to see whether real users knew where to find the services they were applying for. This involved going to social welfare offices and approaching citizens spontaneously with medium-fidelity prototypes. I led a few of these user tests, and created reports after each session which highlighted areas where users were getting confused. Confusion was mainly around the wording of the categories. \n\nWe iterated on the prototype in this way until users had no difficulty finding what they were looking for.",
+            "paragraph": "I assisted in the redesign of the information structure of the site. I created cards with all MyWelfare current and future services on them so that the business could sort them into service categories. \n\nI led guerrilla user testing sessions with citizens to see whether they knew where to find the services they were applying for. I highlighted areas to the business where users were confused or unable to find their service. I contributed to the iteration of the prototype until navigation of the site was clear to all users.",
             "image": "../assets/final/MyWelfare-T12-1.png",
             "imgAltText":"Image of My Welfare pension pages on mobile",
             "mobileImg": "../assets/final/mobile/MyWelfare-T12-1.png",
             "bleedToEdge": false,
-            "maxHeight":"690px"
+            "maxHeight":"690px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         },
         "section3": {
             "number": "03",
             "header": "Accessible by default",
-            "paragraph": "The old website required the user to choose to display an accessible version of the site. We removed this choice, and ensured all colours and fonts were accessible to everyone by default. We used dark typefaces on light backgrounds to ensure AA accessibility standards were being met, and paired icons with text where they are being used. \n\nThrough this project we identified six core design principles for any future digital services created on MyWelfare.",
+            "paragraph": "The old website required the user to choose to display an accessible version of the site. We removed this choice, and ensured all colours and fonts were accessible to everyone by default.\n\nDuring this project we identified six core design principles for the addition of any future digital services on MyWelfare.",
             "image": "../assets/final/MyWelfare-clay-desktop2.png",
             "imgAltText":"Image of My Welfare pension and home pages",
             "mobileImg": "../assets/final/mobile/MyWelfare-clay-desktop2.png",
             "bleedToEdge": false,
-            "maxHeight":"1100px"
+            "maxHeight":"1100px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
+        }
+    },
+    {
+        "name": "claire's my-welfare",
+        "title": "cllaaaa MyWelfare.ie",
+        "role": "Website redesign",
+        "description": "Redesigning the online home for social welfare services in Ireland, by learning and iterating with Irish citizens.",
+        "img": "../assets/final/MyWelfare-iMac4.png",
+        "mobileImg": "../assets/final/mobile/MyWelfare-iMac4.png",
+        "imgAltText":"Image of My Welfare homepage",
+        "imageFlexOrder": 1,
+        "summaryFlexOrder": 2,
+        "button": "Learn more",
+        "textColor": "#231F20",
+        "summaryWidth": "270px",
+        "index": 1,
+        "backgroundGradient": "linear-gradient(222.36deg, #FFFAFA 0%, #FFFAFA 100%)",
+        "marginTop":"100px",
+        "marginBottom":"-4px",
+        "maxHeight": "890px",
+        "projectTemplate": "template1",
+        "intro": {
+            "title": "MyWelfare",
+            "subheader": "The online home for social welfare services for every Irish citizen.",
+            "paragraph": "Welfare services are used by everyone at some point in their lives, usually at a difficult or stressful time. Users found the old MyWelfare platform difficult to use as they were being blocked by a login wall. This meant that they were not able to find what they were looking for, or browse through any of the available services. In addition, the old site was not scalable for the addition of new services by the business.",
+            "button": "Visit website",
+            "buttonLink": "https://services.mywelfare.ie/",
+            "backgroundGradient": "linear-gradient(222.36deg, #FFFAFA 0%, #FFFAFA 100%)",
+            "marginTop":"100px",
+            "marginBottom":"-4px"
+        },
+        "section1": {
+            "number": "01",
+            "header": "A new  CMS",
+            "paragraph": "I contributed to the design of a CMS that would allow information to be accessible to users without having to login. It pushes the important information to the front of the site, and allows users to browse before applying for their service. It also allows the business to easily update and manage the information on their site.",
+            "image": "../assets/final/MyWelfare_001-MacBook-Silver.png",
+            "imgAltText":"Image of My Welfare parents, children and family page",
+            "mobileImg": "../assets/final/mobile/MyWelfare_001-MacBook-Silver.png",
+            "bleedToEdge": false,
+            "maxHeight":"690px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
+        },
+        "section2": {
+            "number": "02",
+            "header": "Information architecture",
+            "paragraph": "I assisted in the redesign of the information structure of the site. I created cards with all MyWelfare current and future services on them so that the business could sort them into service categories. \n\nI led guerrilla user testing sessions with citizens to see whether they knew where to find the services they were applying for. I highlighted areas to the business where users were confused or unable to find their service. I contributed to the iteration of the prototype until navigation of the site was clear to all users.",
+            "image": "../assets/final/MyWelfare-T12-1.png",
+            "imgAltText":"Image of My Welfare pension pages on mobile",
+            "mobileImg": "../assets/final/mobile/MyWelfare-T12-1.png",
+            "bleedToEdge": false,
+            "maxHeight":"690px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
+        },
+        "section3": {
+            "number": "03",
+            "header": "Accessible by default",
+            "paragraph": "The old website required the user to choose to display an accessible version of the site. We removed this choice, and ensured all colours and fonts were accessible to everyone by default.\n\nDuring this project we identified six core design principles for the addition of any future digital services on MyWelfare.",
+            "image": "../assets/final/MyWelfare-clay-desktop2.png",
+            "imgAltText":"Image of My Welfare pension and home pages",
+            "mobileImg": "../assets/final/mobile/MyWelfare-clay-desktop2.png",
+            "bleedToEdge": false,
+            "maxHeight":"1100px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         }
     },
     {
@@ -78,45 +159,54 @@
         "projectTemplate": "template1",
         "intro": {
             "title": "MyWelfare CreationKit",
-            "subheader": "The design system which builds consistency and efficiency into all MyWelfare services.",
-            "paragraph": "The CreationKit is the design system behind MyWelfare. It is a single source of truth which builds consistency and efficiency into all MyWelfare services. \n\nWhile rules and rationales were created when designing MyWelfare, they were not written down. All patterns and guidelines needed to be identified and brought to life in a way that would help designers and developers iterate and add to as the site grows. "
+            "subheader": "A design system that builds consistency and efficiency into all MyWelfare services.",
+            "paragraph": "The CreationKit is a single source of truth for designers and developers on MyWelfare. While the MyWelfare platform grew and evolved, overall rules and processes were not put in place to help with this growth. Patterns, colours and font styles were not consistent throughout the site. These needed to be identified and brought to life in a way that would help designers and developers iterate and add to them as the site grows."
         },
         "section1": {
             "number": "01",
             "header": "A component and style inventory",
-            "paragraph": "To understand how all of the components work together, what fonts are used where and decide what versions of components to keep, a component and style inventory was needed. I gathered all assets and styles used on the site, both live and in progress, and decided where they would live on the CreationKit. \n\nThis involved sifting through countless files and combing the live MyWelfare site so that every style or pattern would be accounted for going forward. ",
+            "paragraph": "I gathered all assets, components, and font styles used on the site, both live and in progress, and decided where they would live on the CreationKit. \n\nThis involved sifting through countless files and combing the live MyWelfare site so that every style or pattern would be accounted for going forward.",
             "image": "../assets/final/Getting Started.png",
             "imgAltText":"Image of the My Welfare Creation Kit home page",
             "mobileImg": "../assets/final/mobile/Getting Started.png",
             "bleedToEdge": false,
-            "maxHeight":"1100px"
+            "maxHeight":"1100px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         },
         "section2": {
             "number": "02",
             "header": "Distilling the brand",
-            "paragraph": "Components, colours and fonts were being used in quite a flexible way on the site. After gathering all of these for the component and style inventory I worked on strengthening the design rules and patterns that were loosely in place on the site. I merged similar colours and refined icons and typographic styles where needed. I built this new, distilled brand into the CreationKit, but also marked areas of the site for maintenance where further development work was needed.",
+            "paragraph": "Components, colours and fonts were being used in quite a flexible way on the site. After creating a component and style inventory I worked on strengthening the design rules and patterns that were loosely in place on the site. I merged similar colours and refined icons and typographic styles where needed. I built this new, distilled brand into the CreationKit, but also marked areas of the site for maintenance where further development work was needed.",
             "image": "../assets/final/Active claim card notifications.png",
             "imgAltText":"Image of the Job Seekers Payment page",
             "mobileImg": "../assets/final/mobile/Active claim card notifications.png",
             "bleedToEdge": true,
-            "maxHeight":"500px"
+            "maxHeight":"800px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         },
         "section3": {
             "number": "03",
             "header": "A robust and scalable site",
-            "paragraph": "My Welfare’s visual style is based on card-based metaphors. Each card contains succinct pieces of information that are easy to digest. This allows for easy scalability of components, as each component should inherit characteristics of those already created. \n\nWhile building the CreationKit I created a Sketch library file with all consolidated components, buttons and styles. In parallel, the developers built a CSS site which links to components on the CreationKit, ensuring scalability and consistency throughout.",
+            "paragraph": "My Welfare’s visual style is based on card-based metaphors. Each card contains succinct pieces of information that are easy to digest. This allows for easy scalability of components, as each component should inherit characteristics of those already created. \n\nWhile building the CreationKit I created a Sketch library file with all consolidated components, buttons and styles to increase efficiency when iterating and creating new products.",
             "image": "../assets/final/CreationKit-typography.png",
             "imgAltText":"Image of the My Welfare Creation Kit Typography",
             "mobileImg": "../assets/final/mobile/CreationKit-typography.png",
             "bleedToEdge": true,
-            "maxHeight":"1100px"
+            "maxHeight":"1100px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         }
     },
     {
         "name": "money-management-tool",
-        "title": "Money management tool",
-        "role": "Built-in app (48-hour project)",
-        "description": "A simple money management tool to empower the elderly and vulnerable in society to complete their everyday banking needs built over a weekend at a Hackathon",
+        "title": "Ulster Bank Hackathon",
+        "role": "Built-in app",
+        "description": "Empowering the elderly and vulnerable in society to complete their everyday banking needs by integrating new functionality into the current Ulster Bank app.",
         "img": "../assets/final/UB_phone_1.png",
         "imgAltText":"Image of the money management mobile app, showing the ability to change the permissions on who can see account information",
         "mobileImg": "../assets/final/mobile/UB_phone_1.png",
@@ -127,52 +217,61 @@
         "textColor": "#ffffff",
         "summaryWidth": "295px",
         "marginTop":"100px",
-        "marginBottom":"100px",
-        "maxHeight": "900px",
+        "marginBottom":"0px",
+        "maxHeight": "1000px",
         "index": 3,
         "backgroundGradient": "linear-gradient(217.93deg,  #A1B5D8 0%,  #A1B5D8 100%)",
         "projectTemplate": "template1",
         "intro": {
-            "title": "Ulster Bank Hackathon money management tool",
-            "subheader": "A money management tool to empower the elderly and vulnerable in society to complete their everyday banking needs. ",
-            "paragraph": "The Ulster Bank Hackathon is currently the largest in Ireland, with over 250 attending over the weekend. This year’s Hackathon asked us to tackle an everyday banking problem for the people of Ireland. \n\nIn Ireland, financial abuse of the elderly is on the rise, and the perpetrators are most often family members or people in positions of trust. Our team identified this as a problem, and focused on bringing financial transparency an elderly person’s life as part of the solution. We wanted to ensure we were preventing financial exclusion for the elderly and vulnerable, and not further enabling this abuse."
+            "title": "Ulster Bank Hackathon",
+            "subheader": "Empowering the elderly and vulnerable in society to complete their everyday banking needs.",
+            "paragraph": "In Ireland, financial abuse of the elderly is on the rise, and the perpetrators are most often family members or people in positions of trust. I identified this as a problem and led our team in bringing financial transparency to elderly people's everyday lives. We built an app to prevent financial exclusion for the elderly and vulnerable, and not further enable this abuse."
         },
         "section1": {
             "number": "01",
             "header": "Understanding the target audience",
-            "paragraph": "I created two personas: Mary who lives in Cork and her son Darragh who lives in Dublin. Mary was afraid of financial scams, and wanted to be able to manage her money as her branch had just closed. Darragh wanted to help his mother from afar, and wanted her to feel safe and confident that her finances were being taken care of. ",
+            "paragraph": "I created two personas: Mary who lives in Cork and her son Darragh who lives in Dublin. Mary was afraid of financial scams, and wanted to be able to manage her money as her branch had just closed. Darragh wanted to help his mother from afar, and wanted her to feel safe and confident that her finances were being taken care of.",
             "image": "../assets/final/Persona-Mary.png",
             "imgAltText":"Image of the person created: Mary, pensioner from Fermoy, Cork",
             "mobileImg": "../assets/final/mobile/Persona-Mary.png",
             "bleedToEdge": false,
-            "maxHeight":"800px"
+            "maxHeight":"900px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         },
         "section2": {
             "number": "02",
             "header": "Establishing a third party within the app",
-            "paragraph": "We gave Mary the ability to add Darragh and his siblings to her account, so that they could all have visibility over her account, and ensure financial transparency within the family. This would give Mary the ability to delegate a task to Darragh, and would give Fidelma and Sarah visibility over Darragh’s expenditure. ",
+            "paragraph": "I gave Mary the ability to add Darragh and his siblings to her account, so that they could all have visibility over her account, and ensure financial transparency within the family. This would give Mary the ability to delegate a task to Darragh, and would give Fidelma and Sarah visibility over Darragh’s expenditure.",
             "image": "../assets/final/Establish-3rd-party_1.png",
             "imgAltText":"Image of the 'Your Trusted People' section of the app",
             "mobileImg": "../assets/final/mobile/Establish-3rd-party_1.png",
             "bleedToEdge": false,
-            "maxHeight":"800px"
+            "maxHeight":"900px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         },
         "section3": {
             "number": "03",
-            "header": "The ability to manage permissions in real-time",
+            "header": "The ability to manage permissions in realtime",
             "paragraph": "Mary could set what actions Darragh and his siblings could complete on her account. She could do this quickly within the app, without having to call the bank or travel into the branch in the next town over.",
             "image": "../assets/final/UB-bottom.png",
             "imgAltText":"",
             "mobileImg": "../assets/final/mobile/UB-bottom.png",
             "bleedToEdge": true,
-            "maxHeight":"1100px"
+            "maxHeight":"2000px",
+            "backgroundGradient": "white",
+            "marginTop":"0px",
+            "marginBottom":"0px"
         }
     },
     {
         "name": "bioeffect",
         "title": "BioEffect skincare",
         "role": "Brand book",
-        "description": "The story and background behind the Icelandic scientific skincare company BioEffect - founded when three geneticists found a way to create an anti-aging serum using barley.",
+        "description": "The story behind the Icelandic scientific skincare company BioEffect. A company founded when three geneticists found a way to create an anti-aging serum using barley.",
         "img": "../assets/final/Bio_Mockup_2.2.png",
         "imgAltText":"Image of Bio Effect book",            
         "mobileImg": "../assets/final/mobile/Bio_Mockup_2.2.png",
@@ -188,13 +287,12 @@
         "projectTemplate": "template2",
         "intro": {
             "title": "BioEffect skincare",
-            "subheader": "A book that tells the story of BioEffect: an Icelandic skincare brand built through science, not beauty.",
-            "paragraph": "Recently breaking into the US market, Icelandic skincare brand BioEffect has been growing into an international household name. The company is currently growing its brand, and reaching out to influencers in the skincare market."
-        },
+            "subheader": "An Icelandic skincare brand built through science, not beauty.",
+            "paragraph": "Recently breaking into the US market, Icelandic skincare brand BioEffect has been growing into an international household name. Founded through science without a commercial target in mind, BioEffect needed to define their brand, and we helped them do this through the process of creating a Brand book."        },
         "section1": {
             "number": "01",
             "header": "The book",
-            "paragraph": "The brand book tells the story of BioEffect. It takes the reader through BioEffect’s scientific conception, to their emergence in the skincare sector. BioEffect radiates purity, and the brand book was designed with this in mind.",
+            "paragraph": "The brand book tells the story of BioEffect. It takes the reader through BioEffect’s scientific conception, to their emergence in the skincare sector. BioEffect radiates purity, and I designed the brand book with this at the forefront of my mind.",
             "image": "../assets/final/Bio_Mockup_3.png",
             "mobileImg": "../assets/final/mobile/Bio_Mockup_3.png",
             "imgAltText":"",
@@ -207,7 +305,7 @@
         "section2": {
             "number": "02",
             "header": "Iceland at its heart",
-            "paragraph": "The design features Icelandic landscapes and combines the rustic nature of the country with the clarity of the ground-breaking product that came out of it.",
+            "paragraph": "Iceland is a country of harsh landscapes and rustic nature, and I identified this as being a large part of where BioEffect's identity stemmed from too. I used a selection of Icelandic landscape photography commissioned for the book, and worked with a product photographer to create stunning images of the product itself.",
             "image": "../assets/final/Bio_Mockup_1.png",
             "mobileImg": "../assets/final/mobile/Bio_Mockup_1.png",
             "imgAltText":"",
@@ -221,8 +319,8 @@
     {
         "name": "hilliard-studio-method",
         "title": "Hilliard Studio Method",
-        "role": "Website redesign and ecommerce implementation",
-        "description": "A fitness studio based in North Carolina focused on female strength and power, Hilliard Studio Method wanted to extend their brand and expand into e-commerce and online streaming.",
+        "role": "Ecommerce website redesign",
+        "description": "A fitness studio focused on building female strength and power, Hilliard Studio Method wanted to extend their brand and expand into ecommerce and online streaming.",
         "img": "../assets/final/HSM-front-page-1.png",
         "imgAltText":"Image of the Hillliad Studio Method mobile app home page",
         "mobileImg": "../assets/final/mobile/HSM-front-page-1.png",
@@ -239,26 +337,26 @@
         "projectTemplate": "template3",
         "intro": {
             "title": "Hilliard Studio Method",
-            "subheader": "A website for the fitness studio which radiates feminine power.",
-            "paragraph": "Hilliard Studio Method is a fitness studio based in Charlotte, North Carolina founded by a mother-daughter duo. Liz and Clary founded Hilliard Studio Method in 2007, and by 2017 wanted to start selling fitness and health products, and stream fitness classes online.",
+            "subheader": "Radiating feminine fitness and power through an ecommerce and live streaming website.",
+            "paragraph": "Hilliard Studio Method is a fitness studio founded by mother-daughter duo, Liz and Clary. Originally founded as a physical studio in their hometown of North Carolina, Hilliard Studio Method's website was not built for selling products online, and there was nowhere that customers could stream classes remotely.",
             "button": "Visit website",
             "buttonLink": "https://hilliardstudiomethod.com/"
         },
         "section1": {
             "number": "01",
             "header": "Remote workouts",
-            "paragraph": "Liz and Clary identified a gap in the market to sell their exercise method to people whose situations didn’t allow them to come into a gym or studio to train. They began streaming their classes and workouts and gained a number of followers in this way. However, their old website did not cater to or sell their online streaming in parallel with their physical studio. We created a website that promoted both physical and virtual studios in the one space, while also refreshing their brand.",
+            "paragraph": "Some of Liz and Clary's customers wanted to be able to enjoy classes in the comfort of their own home, so they began streaming their classes and workouts on a third-party site. Their old website did not promote their online streaming services, and only focused on promoting classes in their physical studio. I reorganised the priority on the homepage of the website to cater for both physical and virtual studios in the one space, while also refreshing the overall Hilliard Studio Method brand.",
             "image": "../assets/final/Macbook-hsm2.png",
             "imgAltText":"Image of website homepage",
             "mobileImg": "../assets/final/mobile/Macbook-hsm2.png",
             "bleedToEdge": true,
             "maxHeight":"2000px",
-            "backgroundGradient": "#D6E4E7"
+            "backgroundGradient": "#D9E4EA"
         },
         "section2": {
             "number": "02",
             "header": "An online shopping experience",
-            "paragraph": "As a natural progression from Hilliard Studio Method’s move to online streaming, Liz and Clary wanted to set up an online store. They had already started selling clothing, beauty products and health supplements in their physical studio in North Carolina, but saw an opportunity to expand this to their online audience in parallel with their streaming service. \n\nThe online store needed to be easily updated by Hilliard Studio Method’s team, so we created a Wordpress site that would allow Liz and Clary’s team to update their products on a content management system.",
+            "paragraph": "As a natural progression from the move to online streaming, Liz and Clary wanted to set up an online store. They had already started selling clothing, beauty products and health supplements in their physical studio in North Carolina, but saw an opportunity to expand this to their online audience in parallel with their streaming service. \n\nI worked closely with a developer on my team to create an online store that could be easily updated by Hilliard Studio Method’s team. We created a Wordpress CMS which allows Liz and Clary’s team to update their products quickly and intuitively.",
             "image": "../assets/final/Macbook-hsm-3 copy.png",
             "imgAltText":"",
             "mobileImg": "../assets/final/mobile/Macbook-hsm-3 copy.png",

@@ -21,7 +21,7 @@
   <section>
     <div style="display:flex;flex-direction: column;" [ngClass]="{'background-tile':  content.section1.backgroundGradient }"
       [ngStyle]="{'background': content.section1.backgroundGradient}">
-      <div [ngClass]="(content.section1.backgroundGradient)? 'fix-margin':''" style="margin-top:100px">
+      <div [ngClass]="(content.section1.backgroundGradient)? 'fix-margin':''">
         <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section1.bleedToEdge)?'-12.5%':'0px','margin-left': (content.section1.bleedToEdge)?'-12.5%':'0px'}">
           <img class="img" [ngStyle]="{'max-height': content.section1.maxHeight}" src="{{content.section1.image}}" [alt]="content.section1.imgAltText">
         </div>
@@ -40,8 +40,8 @@
   </section>
   <section>
     <div [ngClass]="{'background-tile':  content.section2.backgroundGradient }" [ngStyle]="{'background': content.section2.backgroundGradient}">
-      <div style="display:flex;flex-direction: row;justify-content: space-between;padding-top:90px;padding-bottom:60px;" [ngClass]="(content.section2.backgroundGradient)? 'fix-margin':''">
-        <div style="display:flex;flex-direction:column;justify-content:center;max-width:400px;margin-right:45px;">
+      <div class="flex-section" style="display:flex;flex-direction: row;justify-content: space-between;padding-top:90px;padding-bottom:60px;" [ngClass]="(content.section2.backgroundGradient)? 'fix-margin':''">
+        <div class="flex-section-paragraph" style="display:flex;flex-direction:column;justify-content:center;max-width:400px;margin-right:45px;">
           <h2>
             <div class="subheader">{{content.section2.header}}</div>
           </h2>

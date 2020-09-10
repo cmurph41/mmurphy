@@ -17,6 +17,8 @@ export class HomeComponent implements OnInit, OnChanges, OnDestroy {
   mobileImageSource = [];
   imageSource = [];
 
+  maxHeightWithMargin = 0;
+
   innerWidth: any;
 
   constructor(private contentService: ContentService)  {
@@ -30,6 +32,11 @@ export class HomeComponent implements OnInit, OnChanges, OnDestroy {
   onResize(event) {
     this.innerWidth = window.innerWidth;
     this.setImgSrc();     
+  }
+
+  setMaxHeightWithMargin () {
+
+
   }
 
   setImgSrc () {
@@ -55,10 +62,24 @@ export class HomeComponent implements OnInit, OnChanges, OnDestroy {
         this.desktopImageSource[item.index-1] = item.img; 
         this.mobileImageSource[item.index-1] = item.mobileImg;    
       }); 
+
+      this.content.forEach( item => {
+        item.maxWithMargin += this.getHeightFromStrng( item.maxHeight);
+        item.maxWithMargin += this.getHeightFromStrng( item.marginBottom);
+        item.maxWithMargin += this.getHeightFromStrng( item.marginTop);
+      });
+
       this.innerWidth = window.innerWidth;
       this.setImgSrc(); 
      
     } );
+  }
+
+  getHeightFromStrng (strWithPx) {
+    let index = strWithPx.indexOf('px');
+    let num = Number(strWithPx.slice(0,index));
+    return num;
+
   }
 
   ngOnChanges(){

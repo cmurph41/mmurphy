@@ -20,6 +20,8 @@ export class ProjectTemplate1Component implements OnInit, AfterViewInit, OnDestr
   imageSource = [] ;
   innerWidth: any;
 
+  maxHeightWithMargin = 0;
+
   @Input()
   id;
   loaded = false;
@@ -63,7 +65,19 @@ export class ProjectTemplate1Component implements OnInit, AfterViewInit, OnDestr
       this.desktopImageSource[2] = this.content.section2.image; 
       this.mobileImageSource[2] = this.content.section2.mobileImg;   
       this.desktopImageSource[3] = this.content.section3.image; 
-      this.mobileImageSource[3] = this.content.section3.mobileImg;   
+      this.mobileImageSource[3] = this.content.section3.mobileImg;  
+      
+      this.content.section1.maxheightWithMargin += this.getHeightFromStrng(this.content.section1.maxHeight);
+      this.content.section1.maxheightWithMargin += this.getHeightFromStrng(this.content.section1.marginTop) ;
+      this.content.section1.maxheightWithMargin += this.getHeightFromStrng(this.content.section1.marginBottom );
+
+      this.content.section2.maxheightWithMargin += this.getHeightFromStrng(this.content.section2.maxHeight);
+      this.content.section2.maxheightWithMargin += this.getHeightFromStrng(this.content.section2.marginTop) ;
+      this.content.section2.maxheightWithMargin += this.getHeightFromStrng(this.content.section2.marginBottom );
+
+      this.content.section3.maxheightWithMargin += this.getHeightFromStrng(this.content.section3.maxHeight);
+      this.content.section3.maxheightWithMargin += this.getHeightFromStrng(this.content.section3.marginTop) ;
+      this.content.section3.maxheightWithMargin += this.getHeightFromStrng(this.content.section3.marginBottom );
 
       this.innerWidth = window.innerWidth;
       this.setImgSrc(); 
@@ -71,6 +85,12 @@ export class ProjectTemplate1Component implements OnInit, AfterViewInit, OnDestr
       this.loaded = true;
 
     } );
+  }
+  getHeightFromStrng (strWithPx) {
+    let index = strWithPx.indexOf('px');
+    let num = Number(strWithPx.slice(0,index));
+    return num;
+
   }
 
   ngAfterViewInit() { 

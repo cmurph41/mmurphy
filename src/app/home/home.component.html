@@ -10,12 +10,12 @@
       <div [id]="project.value.name + '-home-page-tile'" class="tile-wrapper" [ngClass]="{'background-tile': project.value.backgroundGradient }"
         [ngStyle]="{'background': project.value.backgroundGradient, 
       'transform': project.value.transformGradient, 
-      'max-height': project.value.maxHeight  }">
+      'max-height': project.value.maxWithMargin  }">
 
 
         <div [ngClass]="(project.value.backgroundGradient)?
     'fix-margin content-tile':'content-tile'" [ngStyle]="{'transform': project.value.transformGradient, 
-      'max-height': project.value.maxHeight}">
+      'max-height': project.value.maxWithMargin}">
 
           <div class="img-wrapper" [ngStyle]="{'order': project.value.imageFlexOrder, 
         'margin-top': project.value.marginTop, 

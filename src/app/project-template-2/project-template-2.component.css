@@ -49,11 +49,11 @@
 
 @media (max-width:770px) {
     .fix-margin {
-        margin-left:2.5%!important;
-        margin-right:2.5%!important;
+        margin-left:5%!important;
+        margin-right:5%!important;
     }
     .background-tile{
-        margin-left:-2.632%!important; /*2.5/95*/
-        margin-right:-2.632%!important;
+        margin-left:-5.55%!important; /*2.5/95*/
+        margin-right:-5.55%!important;
     }
 }

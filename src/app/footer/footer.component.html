@@ -1,14 +1,16 @@
 <div class="navBar" id="navBar">
-  <a  aria-label="link opens in new tab" class="navButton" href="mailto:hello@maireadmurphy.com" 
+   
+  <a    [ngClass]="(isProjectPage)?'change-footer':''"
+  aria-label="link opens in new tab" class="navButton" href="mailto:hello@maireadmurphy.com" 
     target="_blank" style="text-decoration: none;">Email</a>
   <div *ngIf="isProjectPage" class="previous-next">
-    <a  class="navButton" style="margin-left: 50px;margin-right:25px" 
+    <a  class="navButton prev" 
       routerLink="/project/{{previousProjectId}}">Previous</a>
-    <a  class="navButton" style="margin-left: 25px;margin-right:50px" 
+    <a  class="navButton next" 
       routerLink="/project/{{nextProjectId}}">Next</a>
   </div>
   
-  <div class= "scroll-to-top" [ngClass]="{'show-scrollTop':windowScrolled}" >
-    <button aria-label="scrolls user to the top of the page" class="navButton" (click)="scrollToTop()">Up</button>
+  <div [ngClass]="(isProjectPage)?'change-footer':''" >
+    <button aria-label="scrolls user to the top of the page" class="navButton" (click)="scrollToTop()">Top</button>
   </div>
 </div>
