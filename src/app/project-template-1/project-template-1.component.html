@@ -63,28 +63,30 @@
     </div>
   </section >
   <div class="mobile-spacer" style="height:200px"></div>
-  <section [ngClass]="{'background-tile': content.section2a.backgroundGradient }" [ngStyle]="{'background': content.section2a.backgroundGradient, 
-  'transform': content.section2a.transformGradient, 'max-height': content.section2a.maxWithMargin  }">
-  <div [ngClass]="(content.section2a.backgroundGradient)?
-      'fix-margin flex-section':'flex-section'"   [ngStyle]="{'padding-top': content.section2a.marginTop, 
-      'padding-bottom':content.section2a.marginBottom}"
-     >
-    <div class="flex-section-paragraph section-1">
-      <h2>
-        <div class="subheader">{{content.section2a.header}}</div>
-      </h2>
-      <div class="paragraph">
-        <p>{{content.section2a.paragraph}}</p>
+  <div *ngIf="content.section2a">
+    <section [ngClass]="{'background-tile': content.section2a.backgroundGradient }" [ngStyle]="{'background': content.section2a.backgroundGradient, 
+    'transform': content.section2a.transformGradient, 'max-height': content.section2a.maxWithMargin  }">
+    <div [ngClass]="(content.section2a.backgroundGradient)?
+        'fix-margin flex-section':'flex-section'"   [ngStyle]="{'padding-top': content.section2a.marginTop, 
+        'padding-bottom':content.section2a.marginBottom}"
+       >
+      <div class="flex-section-paragraph section-1">
+        <h2>
+          <div class="subheader">{{content.section2a.header}}</div>
+        </h2>
+        <div class="paragraph">
+          <p>{{content.section2a.paragraph}}</p>
+        </div>
+        <div *ngIf="content.section2a.asterisk" class="paragraph" style="font-size:14px;">
+          <p>{{content.section2a.asterisk}}</div>
       </div>
-      <div *ngIf="content.section2a.asterisk" class="paragraph" style="font-size:14px;">
-        <p>{{content.section2a.asterisk}}</div>
+      <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section2a.bleedToEdge)?'-12.5%':'0px', 
+      'justify-content': 'flex-end'}">
+        <img class="img" [ngStyle]="{'max-height': content.section2a.maxHeight}" [src]="this.imageSource[1]" [alt]="content.section2a.imgAltText">
+      </div>
     </div>
-    <div class="img-wrapper" [ngStyle]="{'margin-right': (content.section2a.bleedToEdge)?'-12.5%':'0px', 
-    'justify-content': 'flex-end'}">
-      <img class="img" [ngStyle]="{'max-height': content.section2a.maxHeight}" [src]="this.imageSource[1]" [alt]="content.section2a.imgAltText">
-    </div>
+  </section>
   </div>
-</section>
 <div class="mobile-spacer" style="height:200px"></div>
   <section [ngClass]="{'background-tile': content.section3.backgroundGradient }" [ngStyle]="{'background': content.section3.backgroundGradient, 
   'transform': content.section3.transformGradient, 'max-height': content.section3.maxWithMargin  }">
